@@ -1,18 +1,20 @@
 {
-  "name": "starter-theme",
-  "version": "1.0.0-alpha.1",
+  "name": "wmw-technical-test",
+  "version": "1.0.0",
   "private": true,
-  "author": "Shopify Inc.",
-  "description": "An opinionated, Slate compatible, starting point for developing Shopify themes.",
+  "author": "We Make Websites",
+  "description": "An opinionated technical test for front-end candidates for We Make Websites.",
   "keywords": [
+    "wemakewebsites",
+    "technical-test",
     "shopify",
     "theme"
   ],
-  "bugs": "https://github.com/Shopify/starter-theme/issues",
+  "bugs": "https://github.com/we-make-websites/wmw-technical-test/issues",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Shopify/starter-theme.git"
+    "url": "https://github.com/we-make-websites/wmw-technical-test.git"
   },
   "devDependencies": {
     "@shopify/slate-tools": "1.0.0-beta.8",
@@ -30,13 +32,11 @@
     "@shopify/theme-sections": "^1.1.0",
     "@shopify/theme-variants": "^1.0.0-alpha.8",
     "jquery": "^3.2.1",
-    "lazysizes": "^4.1.1",
     "lodash-es": "^4.17.4",
     "normalize.css": "^7.0.0"
   },
   "scripts": {
     "start": "slate-tools start",
-    "watch": "slate-tools start --skipFirstDeploy",
     "build": "slate-tools build",
     "deploy": "slate-tools build && slate-tools deploy",
     "zip": "slate-tools build && slate-tools zip",

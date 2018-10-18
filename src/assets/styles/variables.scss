@@ -1,18 +1,28 @@
-// Text colors
+/**
+ * Text colors.
+ */
 $color-body-text: var(--color-body-text);
 
-// Background colors
+/**
+ * Background colors.
+ */
 $color-body: var(--color-main-background);
 
-// Placeholders
+/**
+ * Placeholders.
+ */
 $placeholder-color-foreground: #161d25;
 $placeholder-color-background: #f9fafb;
 
-// Other colors
+/**
+ * Others.
+ */
 $color-accent: var(--color-accent);
 $color-border: var(--color-border);
 
-// Helper colors for form error states
+/**
+ * Helpers.
+ */
 $color-disabled: #000000;
 $color-disabled-border: #000000;
 $color-error: #ff6d6d;
@@ -20,25 +30,34 @@ $color-error-bg: #ffffff;
 $color-success: #000000;
 $color-success-bg: #000000;
 
-// Typography
+/**
+ * Typography.
+ */
 $font-heading: var(--font-heading);
 $font-body: var(--font-body);
 $font-body-weight: var(--font-body-weight);
 $font-body-style: var(--font-body-style);
 $font-body-bold-weight: var(--font-body-bold-weight);
 
-// Transitions
+/**
+ * Transitions.
+ */
 $transition-duration: 250ms;
 $transition-timing: ease-in-out;
 
-// Grid
+/**
+ * Grid values.
+ */
 $grid-medium: 46.85em;
 $grid-large: 61.85em;
 $grid-widescreen: 87.5em;
 $grid-max-width: 73.75em;
 $grid-gutter: 30px;
 
-// Breakpoints used with the media-query mixin
+/**
+ * Breakpoints.
+ * - To be used with the media-query mixin.
+ */
 $small: 'small';
 $medium: 'medium';
 $medium-down: 'medium-down';
