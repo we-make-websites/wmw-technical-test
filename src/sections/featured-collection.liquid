@@ -1,58 +1,38 @@
-{%- comment -%}
-  This is a required section for the Shopify Theme Store.
-  It is available in the "Featured Collection" section in the theme editor.
+{% comment %}
+------------------------------------------------------------------------------
+  Section: Featured collection
+  - This the main section that you should be working on
+  - Main styling is done in /styles/sections/featured-collection.scss
+------------------------------------------------------------------------------
+{% endcomment %}
 
-  Theme Store required settings
-  - Collection
-
-  Theme Store optional settings
-  - Heading: title of the featured collection section
-{%- endcomment -%}
-<section class="featured-collection">
+<section class="featured-collection" data-section-id="{{ section.id }}" data-section-type="featured-collection">
   {% if section.settings.title != blank %}
-    <h2 class="featured-collection__title">{{ section.settings.title | escape }}</h2>
+    <h2>{{ section.settings.title | escape }}</h2>
   {% endif %}
 
   {%- assign collection = collections[section.settings.collection] -%}
 
   {% for product in collection.products limit: 6 %}
-    <a href="{{ product.url | within: collection }}" class="featured-collection-item">
-      {% if product.featured_image != blank %}
-        <div class="featured-collection__image">
-          {{ product.featured_image | | img_url: 'large' | img_tag }}
-        </div>
-      {% endif %}
-
-      <p>{{ product.title | escape }}</p>
-      <span>
-        {% if product.compare_at_price > product.price %}
-          {% if product.price_varies %}
-            {%- assign sale_price = product.price | money -%}
-            {{ 'products.product.on_sale_from_html' | t: price: sale_price }}
-          {% else %}
-            {{ 'products.product.on_sale' | t }}
-            {{ product.price | money }}
-          {% endif %}
-        {% else %}
-          {% if product.price_varies %}
-            {%- assign price = product.price | money -%}
-            {{ 'products.product.from_text_html' | t: price: price }}
-          {% else %}
-            {{ product.price | money }}
-          {% endif %}
+    {% assign current_variant = product.selected_or_first_available_variant %}
+  
+    <a href="{{ product.url | within: collection }}">
+      <div>
+        {% if product.featured_image != blank %}
+          {{ product.featured_image | img_url: 'large' | img_tag }}
         {% endif %}
-      </span>
-    </a>
-  {% else %}
-    {% for i in (1..6) %}
-      <a href="#" class="featured-collection-item">
-        {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
-        {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg placeholder-svg--small' }}
+        
+        <span js-ajax-cart="addToCart" data-variant-id="{{ current_variant.id }}" data-quantity="1">Add to cart</span>
+      </div>
 
-        <p>{{ 'homepage.onboarding.product_title' | t }}</p>
-        <p>{{ 1999 | money }}</p>
-      </a>
-    {% endfor %}
+      <div>
+        <p>{{ product.title | escape }}</p>
+
+        <span>
+          {% include 'product-price' %}
+        </span>
+      </div>
+    </a>
   {% endfor %}
 </section>
 

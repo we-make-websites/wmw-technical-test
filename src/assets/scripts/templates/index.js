@@ -1,5 +1,5 @@
 import {load} from '@shopify/theme-sections';
-import '../sections/product';
+import '../sections/featured-collection';
 
 document.addEventListener('DOMContentLoaded', () => {
   load('*');
