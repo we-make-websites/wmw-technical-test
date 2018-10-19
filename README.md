@@ -5,7 +5,7 @@
 If you have come directly to this repository without a reference and curious to trial out this test - then please contact daniel@wemakewebsites.com to get yourself started!
 
 ## Brief
-You have been provided a link to a Shopify development environment which contains only a basic header and also a list of unstyled product cards. 
+You have been provided a link to a Shopify development theme which contains only a basic header and also a list of unstyled product cards. The link should contain a `?preview_theme_id=YOUR_THEME_ID` suffixed at the end of the url.
 
 We would like you to **only** style the `featured-collection.liquid` section in your starter theme to match the supplied designs.
 
