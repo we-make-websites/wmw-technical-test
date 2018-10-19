@@ -16,7 +16,7 @@ The Invision prototype also includes a style guide as a reference for correct si
 The `/src/sections/featured-collection.liquid` contains the necessary Liquid markup and content required for the design to function - but you are encouraged to add in your own custom HTML/Liquid to make your build work with the designs.
 
 ### Bonus
-The following instructions are not required for a successful submission. They are purely for us to better measure your eye for bringing a rather static design to life. Since they are not required, we still try to make the tasks as fun and useful for both parties. We will always provide feedback for the bonus tasks if we see room for improvement.
+The following instructions are not required for a successful submission. They are purely for us to better measure your eye for detail and bringing a static design to life. But even if the tasks are not required for submission, we still try to make the tasks as fun and useful for both parties. We will always provide feedback for the bonus tasks if we see room for improvement.
 
 - **User interactions**
   
@@ -74,9 +74,11 @@ $ yarn start
 
 4. **Start developing!**
    
-   The terminal should provide you with a preview link to your theme, and will automatically inject and refresh the browser when changes are made. The preview link should like the following:
-`https://localhost:3000/?preview_theme_id=THEME_ID`
-`https://172.16.120.157:3000/?preview_theme_id=THEME_ID `
+   The terminal should provide you with a preview link to your theme, and will automatically inject and refresh the browser when changes are made. The preview link should like either of the following:
+
+   `https://localhost:3000/?preview_theme_id=THEME_ID`
+   
+   `https://172.16.120.157:3000/?preview_theme_id=THEME_ID `
 
 > If you are getting localhost or certificate issues, then please follow this guide to troubleshoot the issue. 
 > [Create a self signed SSL certificate](https://github.com/Shopify/slate/wiki/4.-Create-a-self-signed-SSL-certificate)
