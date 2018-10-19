@@ -1,12 +1,12 @@
 /**
  * Text colors.
  */
-$color-body-text: var(--color-body-text);
+$color-body-text: 'aktiv-grotesk', sans-serif;
 
 /**
  * Background colors.
  */
-$color-body: var(--color-main-background);
+$color-body: 'aktiv-grotesk', sans-serif;
 
 /**
  * Placeholders.
@@ -33,7 +33,7 @@ $color-success-bg: #000000;
 /**
  * Typography.
  */
-$font-heading: var(--font-heading);
+$font-heading: 'aktiv-grotesk', sans-serif;
 $font-body: var(--font-body);
 $font-body-weight: var(--font-body-weight);
 $font-body-style: var(--font-body-style);

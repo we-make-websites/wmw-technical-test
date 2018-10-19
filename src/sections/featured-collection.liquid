@@ -7,11 +7,11 @@
 {% endcomment %}
 
 <section class="featured-collection" data-section-id="{{ section.id }}" data-section-type="featured-collection">
-  {% if section.settings.title != blank %}
-    <h2>{{ section.settings.title | escape }}</h2>
-  {% endif %}
-
   {%- assign collection = collections[section.settings.collection] -%}
+
+  <h2>{{ collection.title | escape }}</h2>
+
+  <p>{{ collection.description }}</p>
 
   {% for product in collection.products limit: 6 %}
     {% assign current_variant = product.selected_or_first_available_variant %}
