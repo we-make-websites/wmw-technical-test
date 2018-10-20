@@ -7,11 +7,11 @@ If you have come directly to this repository without a reference and curious to 
 ## Brief
 You have been provided a link to a Shopify development theme which contains only a basic header and also a list of unstyled product cards. The link should contain a `?preview_theme_id=YOUR_THEME_ID` suffixed at the end of the url.
 
-We would like you to **only** style the `featured-collection.liquid` section in your starter theme to match the supplied designs.
+We would like you to **only** style the Featured Collection section in the `featured-collection.liquid` file in your starter theme to match the supplied designs.
 
-We have supplied both mobile and desktop designs but we would like you to have a think on how the components respond to the sizes in between. The solution is open for to interpretation.
+We have supplied both mobile and desktop designs but we would like you to have a think on how the components respond to the sizes in between. The solution is open for interpretation.
 
-The Invision prototype also includes a style guide as a reference for correct sizes and colour values. We recommend using the Invision inspect tool - this is an easy way to sample the colours, copy font values and get the correct dimensions of each element in the design.
+The Invision prototype also includes a style guide. We recommend using the Invision inspect tool - this is an easy way to sample the colours, copy font values and get the correct dimensions of each element in the design.
 
 The `/src/sections/featured-collection.liquid` contains the necessary Liquid markup and content required for the design to function - but you are encouraged to add in your own custom HTML/Liquid to make your build work with the designs.
 
