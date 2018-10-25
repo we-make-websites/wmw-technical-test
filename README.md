@@ -34,17 +34,19 @@ The following instructions are not required for a successful submission. They ar
 
 ## Getting started
 
-To get started with the technical test, you will need to make a clone of this repo and run the following commands in the project folder:
+1. **Create a self-signed SSL certificate**
 
-1. **Install project dependencies**
+    Before getting started, you will need to have created a self-signed SSL certificate to serve your assets locally. Please follow this guide before proceeding. [Create a self signed SSL certificate](https://github.com/Shopify/slate/wiki/4.-Create-a-self-signed-SSL-certificate)
 
-   The following command will install the Shopify theme dependencies and third party packages required for the local theme development.
+2. **Install project dependencies**
+    
+    You will need to make a clone of this repo and run the following command in the project folder. This will install the Shopify theme dependencies as well as third party packages required for the local theme development.
 
 ```
 $ yarn install
 ```
 
-2. **Set up your .env file**
+3. **Set up your .env file**
    
    You will need to create a `.env` file using the contents below in the project directory. The password and theme id will have been emailed to you:
 
@@ -64,7 +66,7 @@ SLATE_THEME_ID=
 SLATE_IGNORE_FILES=settings_data.json:
 ```
 
-3. **Start Node.js Express server and begin watching assets**
+4. **Start Node.js Express server and begin watching assets**
    
    The command will compile the assets within `/src` into a `/dist` directory - which are all the necessary files for your theme to run.
 
@@ -72,7 +74,7 @@ SLATE_IGNORE_FILES=settings_data.json:
 $ yarn start
 ```
 
-4. **Start developing!**
+5. **Start developing!**
    
    The terminal should provide you with a preview link to your theme, and will automatically inject and refresh the browser when changes are made. The preview link should like either of the following:
 
