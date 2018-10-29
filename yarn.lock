@@ -217,19 +217,19 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.2.tgz#54c5a964462be3d4d78af631363c18d6fa91ac26"
   integrity sha512-yprFYuno9FtNsSHVlSWd+nRlmGoAbqbeCwOryP6sC/zoCjhpArcRMYp19EvpSUSizJAlsXEwJv+wcWS9XaXdMw==
 
-"@shopify/html-webpack-liquid-asset-tags-plugin@1.0.0-beta.8":
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@shopify/html-webpack-liquid-asset-tags-plugin/-/html-webpack-liquid-asset-tags-plugin-1.0.0-beta.8.tgz#9d69c13e339c81ab28aab46ba7bc5a8a9b4da2fe"
-  integrity sha512-NtMhvtXzaue66dM9Lv2aaPWcSgbZvFQNpQs/GI7agqYFHpXyVdyUEBHwd80ZnQSTJJ4DtfYtkigIQhHInAanXA==
+"@shopify/html-webpack-liquid-asset-tags-plugin@1.0.0-beta.11":
+  version "1.0.0-beta.11"
+  resolved "https://registry.yarnpkg.com/@shopify/html-webpack-liquid-asset-tags-plugin/-/html-webpack-liquid-asset-tags-plugin-1.0.0-beta.11.tgz#5bfc0b9394fb3b1dc89c539edc2dc1fd8f9f5471"
+  integrity sha512-9fh8Qi5OTLqB5WXeH0oTsfYFT8/fgoK5YKyHPZvEfDbl9JW1jMDwfhjsPhW6d221oPd7UiOC3JDhDdYPN85hyQ==
 
-"@shopify/slate-analytics@1.0.0-beta.8":
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-analytics/-/slate-analytics-1.0.0-beta.8.tgz#fb3e146fa3f70df9096295e2377f79b79b0ab304"
-  integrity sha512-oLn//nrGcu3uzHF09Y7U/3WhetCA8TOu/ziLR9scg1nrFJVytb6Gza1uf8aAjOxSEb1EZErrhk/cl9z57oNixg==
+"@shopify/slate-analytics@1.0.0-beta.12":
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-analytics/-/slate-analytics-1.0.0-beta.12.tgz#05231407f6d7097a77fcd3bffd12173fe10caedf"
+  integrity sha512-5lQqC+TfsDio0VHMME4O/kRWVmhkCXyyS/xTUVlYYcYd6n4OAtOTFmnwqGAA2uhw3ZL4Hb2X6aFPbPkNVLijTA==
   dependencies:
-    "@shopify/slate-env" "1.0.0-beta.8"
-    "@shopify/slate-error" "1.0.0-beta.8"
-    "@shopify/slate-rc" "1.0.0-beta.8"
+    "@shopify/slate-env" "1.0.0-beta.12"
+    "@shopify/slate-error" "1.0.0-beta.12"
+    "@shopify/slate-rc" "1.0.0-beta.12"
     axios "^0.18.0"
     chalk "^2.3.0"
     inquirer "^5.0.1"
@@ -237,60 +237,60 @@
     uuid "^3.2.1"
     word-wrap "^1.2.3"
 
-"@shopify/slate-config@1.0.0-beta.8":
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-config/-/slate-config-1.0.0-beta.8.tgz#958671eba0d3e12c6a648bbc9eea282510cc5c46"
-  integrity sha512-YkftwNRumUVrPoKsvjwE51DU1cMvWW24D0axWy1Cr3FC5j07QiRdhEpEyeRii7AOKng9d8P1z4yyqnrEl2s2gw==
+"@shopify/slate-config@1.0.0-beta.12":
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-config/-/slate-config-1.0.0-beta.12.tgz#77bbebca7e57a98c4f970016dcffcba98803eae1"
+  integrity sha512-UPK/RM0uI4xmQ5dSCCJJF1sPdnrewrTsUflrKgjtez+PSudJJm46WopKnt3+73NGDxrNAdtVViR4OqI35w2eiA==
 
-"@shopify/slate-cssvar-loader@1.0.0-beta.8":
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-cssvar-loader/-/slate-cssvar-loader-1.0.0-beta.8.tgz#ffdbb61670765c9a7e340ed6596eb3a4400ad754"
-  integrity sha512-MBzK6HQ74WRm4wrztg63rE2XSjaKBgBzOMWpVdNyMkuaLz7bgXlSltaLzSsitUreSg8gi0EqQm9F3y4qryN83Q==
+"@shopify/slate-cssvar-loader@1.0.0-beta.12":
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-cssvar-loader/-/slate-cssvar-loader-1.0.0-beta.12.tgz#915071defe9a7c4cf05fab859615a6e2324a72df"
+  integrity sha512-T0B6ctdknYupim4lfc1r5LNMyk0rQbUG29g/wia1fsM9Y//GAE6U358R6p1GvBIi8iEMSvhf9pczTEkJFHXVEw==
   dependencies:
-    "@shopify/slate-config" "1.0.0-beta.8"
+    "@shopify/slate-config" "1.0.0-beta.12"
     loader-utils "^1.1.0"
 
-"@shopify/slate-env@1.0.0-beta.8":
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-env/-/slate-env-1.0.0-beta.8.tgz#31389f947c4f910a4d0b7d8f345e9a6ca1de69c8"
-  integrity sha512-13iITLiP6JYQjRfSrPls/ZTFc6ztHDbKWkcuLf1qPk7MWKpinBXNlp38ttoopZScjEaFZ4OEDQDLgeSu0YRnJw==
+"@shopify/slate-env@1.0.0-beta.12":
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-env/-/slate-env-1.0.0-beta.12.tgz#dad939c5a06b69d61dd0d5fdf764daf6a9ac78f2"
+  integrity sha512-vt2pBnofBhxAxLqtEvOa7P5W9mckeZgTiG5+C38Cik6gpqskRDk+jQIGEjhtGy19qbliv15km04XgpxwM7g3Ng==
   dependencies:
-    "@shopify/slate-config" "1.0.0-beta.8"
+    "@shopify/slate-config" "1.0.0-beta.12"
     dotenv "^4.0.0"
 
-"@shopify/slate-error@1.0.0-beta.8":
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-error/-/slate-error-1.0.0-beta.8.tgz#84f845a6188f7bb4e0a05ad9d91259357e4a2066"
-  integrity sha512-qWPTvjTX2WXFi/j+BOgS1C2eKuQCSfzBJ6biZN0JPrlOergN0doCZPtEdZWJGZ+xRlN55R7MIzYaTQsRq8SM3A==
+"@shopify/slate-error@1.0.0-beta.12":
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-error/-/slate-error-1.0.0-beta.12.tgz#e9def27f597da7b89a66aac2605782613c464985"
+  integrity sha512-/lemvKbizAYgelVbTblYmQIYy1Yc0QFCZNsMDYUOsZ8DyUNWueo5XExFUfkMBvSxtXXmixsOSkB7vWKeRPuh5A==
 
-"@shopify/slate-liquid-asset-loader@1.0.0-beta.8":
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-liquid-asset-loader/-/slate-liquid-asset-loader-1.0.0-beta.8.tgz#e50347d966fb5afdc155e3e1e4a345fb2447e80d"
-  integrity sha512-XzPT8YIJrxV5EWeoyT9Xgm+Kh4zU7i3J8rOB19ubHIarJyUSxSDVbJTiKdLsT7fa1CnEd/nTcLQ9/TjrnrJP1Q==
+"@shopify/slate-liquid-asset-loader@1.0.0-beta.11":
+  version "1.0.0-beta.11"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-liquid-asset-loader/-/slate-liquid-asset-loader-1.0.0-beta.11.tgz#646a8f6772bb520bcd910bbe1bebcedb8652c4d0"
+  integrity sha512-d8ufUMtev5sL81/Er9bekJh1vSZigPiX61gqGGlp4bQ/+0n1GO5AE7V6QSOwWtHKt+YiS81t5wTKxCPvCore4g==
   dependencies:
     escape-string-regexp "^1.0.5"
     loader-utils "^1.1.0"
 
-"@shopify/slate-rc@1.0.0-beta.8":
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-rc/-/slate-rc-1.0.0-beta.8.tgz#2505cc46096fc308c36b341b91914c4e2b2b9db1"
-  integrity sha512-/49WyMdlbiRWySFFNWgiDUX1Mselitx8xiZMCqcHvaxdXh8fmkkTLkNOgpbOa+Ro5fM8uOvHc4jyxEB86f6MyA==
+"@shopify/slate-rc@1.0.0-beta.12":
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-rc/-/slate-rc-1.0.0-beta.12.tgz#7e6bda81e4f86ba7746d38140738b017422ac51e"
+  integrity sha512-2dXHziyLDUStlpLhqCd5oUaADqEhM3QaXGxyv4t5vc0STaMI1q0UxIiBqjNrkeP39I0PkZJ352ZsO/nE9tMqPg==
   dependencies:
-    "@shopify/slate-config" "1.0.0-beta.8"
-    "@shopify/slate-error" "1.0.0-beta.8"
+    "@shopify/slate-config" "1.0.0-beta.12"
+    "@shopify/slate-error" "1.0.0-beta.12"
     fs-extra "^5.0.0"
     mock-fs "^4.4.2"
     semver "^5.5.0"
     uuid "^3.2.1"
 
-"@shopify/slate-sync@1.0.0-beta.8":
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-sync/-/slate-sync-1.0.0-beta.8.tgz#c0da2d3078176471b43af4c6d18710afa5a4cd18"
-  integrity sha512-TewhGNe8kzkYQNewxTnWxucSGJxN1CI6E9tzV0jslyyHli+phNmzBj8z8iyKp1Vp+SScAkyGKOLyWbrvgPfEaA==
+"@shopify/slate-sync@1.0.0-beta.12":
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-sync/-/slate-sync-1.0.0-beta.12.tgz#f731caa9e81e0461d4f9d442929c24481b34799c"
+  integrity sha512-NaE0pKYVQYLCqURWE1Taza6hwtO6G34M9rH+mO45p2ehVHGjvGi9QRwlo9+1UPaT1VgfLr/BINWmfo56dFDLCQ==
   dependencies:
-    "@shopify/slate-analytics" "1.0.0-beta.8"
-    "@shopify/slate-config" "1.0.0-beta.8"
-    "@shopify/slate-env" "1.0.0-beta.8"
+    "@shopify/slate-analytics" "1.0.0-beta.12"
+    "@shopify/slate-config" "1.0.0-beta.12"
+    "@shopify/slate-env" "1.0.0-beta.12"
     "@shopify/themekit" "0.6.12"
     array-flatten "^2.1.1"
     chalk "2.3.2"
@@ -299,24 +299,24 @@
     jest "22.4.2"
     react-dev-utils "0.5.2"
 
-"@shopify/slate-tag-webpack-plugin@1.0.0-beta.8":
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-tag-webpack-plugin/-/slate-tag-webpack-plugin-1.0.0-beta.8.tgz#183703e8b67ce4a8e950b9372ae792524b39978e"
-  integrity sha512-n9cny/Fs6TtUyaBv9N9Ddoy+YCb+T/TK0D+g4yILFQw9G6yBU5jmClU6GTCfF0nJOIURU3GcGkGepiHOwJ8P0g==
+"@shopify/slate-tag-webpack-plugin@1.0.0-beta.12":
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-tag-webpack-plugin/-/slate-tag-webpack-plugin-1.0.0-beta.12.tgz#c7e3372e36e538ae9f83909354d7e6b3be3b643c"
+  integrity sha512-NTJs4lCi1uVe541xdctQIUwB1dC0KysI8cz+j/yNIovBXoVrXHic0e543nECuIQ2F1y5eJBotWAvLGy7FLhp+g==
 
-"@shopify/slate-tools@1.0.0-beta.8":
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-tools/-/slate-tools-1.0.0-beta.8.tgz#baf4719cdd41c60196e39977156e26f231848447"
-  integrity sha512-gh78MYHWNDbjEvJCZ2jKNm2aP/aKXGH5Xw8QlhXXyFS/u4sUksXe8ClGiNrveV7NVa4Fz92gShUIEqbEPbLm8A==
+"@shopify/slate-tools@1.0.0-beta.12":
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-tools/-/slate-tools-1.0.0-beta.12.tgz#cbf8b20127e31cadfba1cb4aa0c80ffc540c8b2b"
+  integrity sha512-A1TnYJsFTBgzoacLjGbWtIShHJEPrcWzHHW60bS3sqq93CApdQatwNqZ3fh6PS+f+fseP/WS5e3id2YgPG3Eng==
   dependencies:
-    "@shopify/html-webpack-liquid-asset-tags-plugin" "1.0.0-beta.8"
-    "@shopify/slate-analytics" "1.0.0-beta.8"
-    "@shopify/slate-config" "1.0.0-beta.8"
-    "@shopify/slate-cssvar-loader" "1.0.0-beta.8"
-    "@shopify/slate-env" "1.0.0-beta.8"
-    "@shopify/slate-liquid-asset-loader" "1.0.0-beta.8"
-    "@shopify/slate-sync" "1.0.0-beta.8"
-    "@shopify/slate-tag-webpack-plugin" "1.0.0-beta.8"
+    "@shopify/html-webpack-liquid-asset-tags-plugin" "1.0.0-beta.11"
+    "@shopify/slate-analytics" "1.0.0-beta.12"
+    "@shopify/slate-config" "1.0.0-beta.12"
+    "@shopify/slate-cssvar-loader" "1.0.0-beta.12"
+    "@shopify/slate-env" "1.0.0-beta.12"
+    "@shopify/slate-liquid-asset-loader" "1.0.0-beta.11"
+    "@shopify/slate-sync" "1.0.0-beta.12"
+    "@shopify/slate-tag-webpack-plugin" "1.0.0-beta.12"
     "@shopify/theme-lint" "^2.0.0"
     "@shopify/themekit" "0.6.12"
     archiver "^2.1.0"
@@ -328,7 +328,7 @@
     browser-sync "^2.24.6"
     chalk "2.3.2"
     clean-webpack-plugin "0.1.19"
-    concat-style-loader "1.0.0-beta.8"
+    concat-style-loader "1.0.0-beta.12"
     console-control-strings "^1.1.0"
     copy-webpack-plugin "^4.2.3"
     cors "^2.8.4"
@@ -352,6 +352,7 @@
     inquirer "^5.0.1"
     ip "^1.1.5"
     jest "22.4.2"
+    mini-css-extract-plugin "^0.4.3"
     minimatch "^3.0.4"
     minimist "1.2.0"
     node-sass "^4.7.2"
@@ -370,10 +371,10 @@
     uglifyjs-webpack-plugin "^1.0.1"
     uuid "^3.2.1"
     webpack "^4.1.1"
-    webpack-dev-middleware "1.10.2"
+    webpack-dev-middleware "3.4.0"
     webpack-hot-middleware "2.21.2"
     webpack-merge "4.1.2"
-    write-file-webpack-plugin "4.2.0"
+    write-file-webpack-plugin "4.4.0"
     yamljs "0.2.10"
     yargs "^11.0.0"
 
@@ -648,6 +649,11 @@ after@0.8.2:
   resolved "https://registry.yarnpkg.com/after/-/after-0.8.2.tgz#fedb394f9f0e02aa9768e702bda23b505fae7e1f"
   integrity sha1-/ts5T58OAqqXaOcCvaI7UF+ufh8=
 
+ajv-errors@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ajv-errors/-/ajv-errors-1.0.0.tgz#ecf021fa108fd17dfb5e6b383f2dd233e31ffc59"
+  integrity sha1-7PAh+hCP0X37Xms4Py3SM+Mf/Fk=
+
 ajv-keywords@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-2.1.1.tgz#617997fc5f60576894c435f940d819e135b80762"
@@ -687,6 +693,11 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
+
+ansi-colors@^3.0.0:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.1.tgz#9638047e4213f3428a11944a7d4b31cba0a3ff95"
+  integrity sha512-Xt+zb6nqgvV9SWAVp0EG3lRsHcbq5DDgqjPPz6pwgtj6RKz65zGXMNa82oJfOSBA/to6GmRP7Dr+6o+kbApTzQ==
 
 ansi-escapes@^3.0.0:
   version "3.1.0"
@@ -2572,7 +2583,7 @@ chalk@2.3.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.1, chalk@^2.4.1:
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.1, chalk@^2.4.0, chalk@^2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
   integrity sha512-ObN6h1v2fTJSmUXoS3nMQ92LbDK9be4TV+6G+omQlGJFdcUX5heKi1LZ1YnRMIgwTLEj3E24bT6tYni50rlCfQ==
@@ -2934,10 +2945,10 @@ concat-stream@^1.4.6, concat-stream@^1.4.7, concat-stream@^1.5.0, concat-stream@
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-concat-style-loader@1.0.0-beta.8:
-  version "1.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/concat-style-loader/-/concat-style-loader-1.0.0-beta.8.tgz#e130379174a70f56ba6cab5d1d258ab827e79f78"
-  integrity sha512-8Eivr9xypQQDjcKbk96iwNHhvTiWtIvriESgepBUVY9+pbrBzkOEq9RKtT2/xFpzMEURMN3Q4UKJJID+eN21pw==
+concat-style-loader@1.0.0-beta.12:
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/concat-style-loader/-/concat-style-loader-1.0.0-beta.12.tgz#576ac7dd3fe3c2f577ab29b559de401775009c71"
+  integrity sha512-vrU3TEt1oY0Pa9MdrTSBZmngcBFVMNTXAcm7RwXeNbONS01R5CSMWd0WzIJfMddHE6VdV1Bn1/Xh0gi8MDPTyw==
   dependencies:
     loader-utils "^1.1.0"
 
@@ -4940,7 +4951,7 @@ filesize@3.5.11:
   resolved "https://registry.yarnpkg.com/filesize/-/filesize-3.5.11.tgz#1919326749433bb3cf77368bd158caabcc19e9ee"
   integrity sha512-ZH7loueKBoDb7yG9esn1U+fgq7BzlzW6NRi5/rMdxIZ05dj7GFD/Xc5rq2CDt5Yq86CyfSYVyx4242QQNZbx1g==
 
-filesize@^3.2.1:
+filesize@^3.6.1:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/filesize/-/filesize-3.6.1.tgz#090bb3ee01b6f801a8a8be99d31710b3422bb317"
   integrity sha512-7KjR1vv6qnicaPMi1iiTcI85CyYwRO/PSFCu6SvqL8jN2Wjt/NIYQTFtFs7fSDCYOstUkEWIQGFUg5YZQfjlcg==
@@ -7256,11 +7267,6 @@ lazy-req@^1.0.0:
   resolved "https://registry.yarnpkg.com/lazy-req/-/lazy-req-1.1.0.tgz#bdaebead30f8d824039ce0ce149d4daa07ba1fac"
   integrity sha1-va6+rTD42CQDnODOFJ1Nqge6H6w=
 
-lazysizes@^4.1.1:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/lazysizes/-/lazysizes-4.1.2.tgz#98104926b519e2b72d05bc9833293b229132cab4"
-  integrity sha512-8NPoH8YIvJtXgKw5eURLNYb+UrQ42pjDTi/s1qITv+c9+CYhAaPXQI5rWDqjMSHaa8ogUaLeQ+ry5k4s/B3uTA==
-
 lazystream@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lazystream/-/lazystream-1.0.0.tgz#f6995fe0f820392f61396be89462407bb77168e4"
@@ -7543,7 +7549,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.0.0, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@^4.5.1, lodash@^4.8.0, lodash@~4.17.10:
+lodash@^4.0.0, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@^4.8.0, lodash@~4.17.10:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
@@ -7853,10 +7859,10 @@ mime@1.4.1:
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.4.1.tgz#121f9ebc49e3766f311a76e1fa1c8003c4b03aa6"
   integrity sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==
 
-mime@^1.3.4:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
-  integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
+mime@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/mime/-/mime-2.3.1.tgz#b1621c54d63b97c47d3cfe7f7215f7d64517c369"
+  integrity sha512-OEUllcVoydBHGN1z84yfQDimn58pZNNNXgZlHXSboxMlFvgI6MXSWpWKpFRra7H1HxpVhHTkrghfRW49k6yjeg==
 
 mimic-fn@^1.0.0:
   version "1.2.0"
@@ -7874,6 +7880,15 @@ min-document@^2.19.0:
   integrity sha1-e9KC4/WELtKVu3SM3Z8f+iyCRoU=
   dependencies:
     dom-walk "^0.1.0"
+
+mini-css-extract-plugin@^0.4.3:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-0.4.4.tgz#c10410a004951bd3cedac1da69053940fccb625d"
+  integrity sha512-o+Jm+ocb0asEngdM6FsZWtZsRzA8koFUudIDwYUfl94M3PejPHG7Vopw5hN9V8WsMkSFpm3tZP3Fesz89EyrfQ==
+  dependencies:
+    loader-utils "^1.1.0"
+    schema-utils "^1.0.0"
+    webpack-sources "^1.1.0"
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
@@ -7986,7 +8001,7 @@ mock-fs@^4.4.2:
   resolved "https://registry.yarnpkg.com/mock-fs/-/mock-fs-4.7.0.tgz#9f17e219cacb8094f4010e0a8c38589e2b33c299"
   integrity sha512-WlQNtUlzMRpvLHf8dqeUmNqfdPjGY29KrJF50Ldb4AcL+vQeR8QH3wQcFMgrhTwb1gHjZn9xggho+84tBskLgA==
 
-moment@^2.11.2:
+moment@^2.22.1:
   version "2.22.2"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
   integrity sha1-PCV/mDn8DpP/UxSWMiOeuQeD/2Y=
@@ -10374,6 +10389,15 @@ schema-utils@^0.4.0, schema-utils@^0.4.4, schema-utils@^0.4.5:
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
 
+schema-utils@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-1.0.0.tgz#0b79a93204d7b600d4b2850d1f66c2a34951c770"
+  integrity sha512-i27Mic4KovM/lnGsy8whRCHhc7VicJajAjTrYg11K9zfZXnYIt4k5F+kZkwjnrhKzLic/HLU4j11mjsz2G/75g==
+  dependencies:
+    ajv "^6.1.0"
+    ajv-errors "^1.0.0"
+    ajv-keywords "^3.1.0"
+
 scss-tokenizer@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/scss-tokenizer/-/scss-tokenizer-0.2.3.tgz#8eb06db9a9723333824d3f5530641149847ce5d1"
@@ -12195,15 +12219,15 @@ webidl-conversions@^4.0.2:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
   integrity sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
 
-webpack-dev-middleware@1.10.2:
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-1.10.2.tgz#2e252ce1dfb020dbda1ccb37df26f30ab014dbd1"
-  integrity sha1-LiUs4d+wINvaHMs33ybzCrAU29E=
+webpack-dev-middleware@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-3.4.0.tgz#1132fecc9026fd90f0ecedac5cbff75d1fb45890"
+  integrity sha512-Q9Iyc0X9dP9bAsYskAVJ/hmIZZQwf/3Sy4xCAZgL5cUkjZmUZLt4l5HpbST/Pdgjn3u6pE7u5OdGd1apgzRujA==
   dependencies:
     memory-fs "~0.4.1"
-    mime "^1.3.4"
-    path-is-absolute "^1.0.0"
+    mime "^2.3.1"
     range-parser "^1.0.3"
+    webpack-log "^2.0.0"
 
 webpack-hot-middleware@2.21.2:
   version "2.21.2"
@@ -12214,6 +12238,14 @@ webpack-hot-middleware@2.21.2:
     html-entities "^1.2.0"
     querystring "^0.2.0"
     strip-ansi "^3.0.0"
+
+webpack-log@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/webpack-log/-/webpack-log-2.0.0.tgz#5b7928e0637593f119d32f6227c1e0ac31e1b47f"
+  integrity sha512-cX8G2vR/85UYG59FgkoMamwHUIkSSlV3bBMRsbxVXVUk2j6NleCKjQ/WE9eYg9WY4w25O9w8wKP4rzNZFmUcUg==
+  dependencies:
+    ansi-colors "^3.0.0"
+    uuid "^3.3.2"
 
 webpack-merge@4.1.2:
   version "4.1.2"
@@ -12379,7 +12411,7 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-write-file-atomic@^2.1.0:
+write-file-atomic@^2.1.0, write-file-atomic@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-2.3.0.tgz#1ff61575c2e2a4e8e510d6fa4e243cce183999ab"
   integrity sha512-xuPeK4OdjWqtfi59ylvVL0Yn35SF3zgcAcv7rBPFHVaEapaDr4GdGgm3j7ckTwH9wHL7fGmgfAnb0+THrHb8tA==
@@ -12388,17 +12420,18 @@ write-file-atomic@^2.1.0:
     imurmurhash "^0.1.4"
     signal-exit "^3.0.2"
 
-write-file-webpack-plugin@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/write-file-webpack-plugin/-/write-file-webpack-plugin-4.2.0.tgz#7bd18547eaa0ea0b23992fb1e0322e5431d339ef"
-  integrity sha512-sIjfV+M1Ia8p/lVcLjvM2I0Lq/40tCMZe+k0Pxg2TG6TKjUgHGwQeM42QdYLiHAIAITGQK1HEQA3YknFubzfDQ==
+write-file-webpack-plugin@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/write-file-webpack-plugin/-/write-file-webpack-plugin-4.4.0.tgz#344e1551156e015c759d455a0b002c3b54bcad2e"
+  integrity sha512-NcfhBlPbG8yb/3eUkYGuAyNj8P7W227HL9cXcGp0jUp+JnL3CgPlPtY30c0yl3CIbJEW7OfBU90bxHO2v9fQoA==
   dependencies:
-    chalk "^1.1.1"
-    debug "^2.6.8"
-    filesize "^3.2.1"
-    lodash "^4.5.1"
+    chalk "^2.4.0"
+    debug "^3.1.0"
+    filesize "^3.6.1"
+    lodash "^4.17.5"
     mkdirp "^0.5.1"
-    moment "^2.11.2"
+    moment "^2.22.1"
+    write-file-atomic "^2.3.0"
 
 write@^0.2.1:
   version "0.2.1"
