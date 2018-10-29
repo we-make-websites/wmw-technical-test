@@ -7,11 +7,11 @@ If you have come directly to this repository without a reference and curious to 
 ## Brief
 You have been provided a link to a Shopify development theme which contains only a basic header and also a list of unstyled product cards. The link should contain a `?preview_theme_id=YOUR_THEME_ID` suffixed at the end of the url.
 
-We would like you to **only** style the `featured-collection.liquid` section in your starter theme to match the supplied designs.
+We would like you to **only** style the Featured Collection section in the `featured-collection.liquid` file in your starter theme to match the supplied designs.
 
-We have supplied both mobile and desktop designs but we would like you to have a think on how the components respond to the sizes in between. The solution is open for to interpretation.
+We have supplied both mobile and desktop designs but we would like you to have a think on how the components respond to the sizes in between. The solution is open for interpretation.
 
-The Invision prototype also includes a style guide as a reference for correct sizes and colour values. We recommend using the Invision inspect tool - this is an easy way to sample the colours, copy font values and get the correct dimensions of each element in the design.
+The Invision prototype also includes a style guide. We recommend using the Invision inspect tool - this is an easy way to sample the colours, copy font values and get the correct dimensions of each element in the design.
 
 The `/src/sections/featured-collection.liquid` contains the necessary Liquid markup and content required for the design to function - but you are encouraged to add in your own custom HTML/Liquid to make your build work with the designs.
 
@@ -34,17 +34,19 @@ The following instructions are not required for a successful submission. They ar
 
 ## Getting started
 
-To get started with the technical test, you will need to make a clone of this repo and run the following commands in the project folder:
+1. **Create a self-signed SSL certificate**
 
-1. **Install project dependencies**
+    Before getting started, you will need to have created a self-signed SSL certificate to serve your assets locally. Please follow this guide before proceeding. [Create a self signed SSL certificate](https://github.com/Shopify/slate/wiki/4.-Create-a-self-signed-SSL-certificate)
 
-   The following command will install the Shopify theme dependencies and third party packages required for the local theme development.
+2. **Install project dependencies**
+    
+    You will need to make a clone of this repo and run the following command in the project folder. This will install the Shopify theme dependencies as well as third party packages required for the local theme development.
 
 ```
 $ yarn install
 ```
 
-2. **Set up your .env file**
+3. **Set up your .env file**
    
    You will need to create a `.env` file using the contents below in the project directory. The password and theme id will have been emailed to you:
 
@@ -64,7 +66,7 @@ SLATE_THEME_ID=
 SLATE_IGNORE_FILES=settings_data.json:
 ```
 
-3. **Start Node.js Express server and begin watching assets**
+4. **Start Node.js Express server and begin watching assets**
    
    The command will compile the assets within `/src` into a `/dist` directory - which are all the necessary files for your theme to run.
 
@@ -72,7 +74,7 @@ SLATE_IGNORE_FILES=settings_data.json:
 $ yarn start
 ```
 
-4. **Start developing!**
+5. **Start developing!**
    
    The terminal should provide you with a preview link to your theme, and will automatically inject and refresh the browser when changes are made. The preview link should like either of the following:
 
