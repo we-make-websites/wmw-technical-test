@@ -16,9 +16,8 @@ The Invision prototype also includes a style guide. We recommend using the Invis
 The `/src/sections/featured-collection.liquid` contains the necessary Liquid markup and content required for the design to function - but you are encouraged to add in your own custom HTML/Liquid to make your build work with the designs.
 
 #### Tips
-
-- Try using Flickity to build the carousel.
-- In the store's admin one of the products has a tag named `badge: sale`. Use that tag to display the sale tag on the product in the carousel. You can read about `product.tags` in `The product object` article and how to manipulate strings in the `String filters` article available in the Useful resources section.
+- We recommend using Flickity to build the featured collection carousel.
+- One of the products have a `badge: sale` tag that had been added behind the scenes. Try to use that tag in order to display the badge on the product in the carousel. You can read more about `product.tags` under `The product object` article and how to manipulate strings in the `String filters` article shown in the Useful Resources section below.
 
 ### Bonus
 The following instructions are not required for a successful submission. They are purely for us to better measure your eye for detail and bringing a static design to life. But even if the tasks are not required for submission, we still try to make the tasks as fun and useful for both parties. We will always provide feedback for the bonus tasks if we see room for improvement.
