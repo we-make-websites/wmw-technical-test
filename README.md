@@ -15,6 +15,11 @@ The Invision prototype also includes a style guide. We recommend using the Invis
 
 The `/src/sections/featured-collection.liquid` contains the necessary Liquid markup and content required for the design to function - but you are encouraged to add in your own custom HTML/Liquid to make your build work with the designs.
 
+#### Tips
+
+- Try using Flickity to build the carousel.
+- In the store's admin one of the products has a tag named `badge: sale`. Use that tag to display the sale tag on the product in the carousel. You can read about `product.tags` in `The product object` article and how to manipulate strings in the `String filters` article available in the Useful resources section.
+
 ### Bonus
 The following instructions are not required for a successful submission. They are purely for us to better measure your eye for detail and bringing a static design to life. But even if the tasks are not required for submission, we still try to make the tasks as fun and useful for both parties. We will always provide feedback for the bonus tasks if we see room for improvement.
 
@@ -106,6 +111,7 @@ $ yarn deploy
 - [The product object](https://help.shopify.com/en/themes/liquid/objects/product)
 - [The variant object](https://help.shopify.com/en/themes/liquid/objects/variant)
 - [Creating AJAX calls with Shopify](https://help.shopify.com/en/themes/development/getting-started/using-ajax-api)
+- [String filters](https://help.shopify.com/en/themes/liquid/filters/string-filters)
 
 ## System requirements
 You’ll want to ensure you have the following already installed on your local machine before getting started with Starter theme:
