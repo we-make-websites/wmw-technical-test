@@ -97,7 +97,7 @@ $ yarn start
 $ yarn deploy
 ``` 
 
-2. **Let the someone know**
+2. **Let someone know**
    
    When the deployment has finished, then you can test the same preview link that you have been developing on inside any browser.
    
