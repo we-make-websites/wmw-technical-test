@@ -222,14 +222,14 @@
   resolved "https://registry.yarnpkg.com/@shopify/html-webpack-liquid-asset-tags-plugin/-/html-webpack-liquid-asset-tags-plugin-1.0.0-beta.11.tgz#5bfc0b9394fb3b1dc89c539edc2dc1fd8f9f5471"
   integrity sha512-9fh8Qi5OTLqB5WXeH0oTsfYFT8/fgoK5YKyHPZvEfDbl9JW1jMDwfhjsPhW6d221oPd7UiOC3JDhDdYPN85hyQ==
 
-"@shopify/slate-analytics@1.0.0-beta.12":
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-analytics/-/slate-analytics-1.0.0-beta.12.tgz#05231407f6d7097a77fcd3bffd12173fe10caedf"
-  integrity sha512-5lQqC+TfsDio0VHMME4O/kRWVmhkCXyyS/xTUVlYYcYd6n4OAtOTFmnwqGAA2uhw3ZL4Hb2X6aFPbPkNVLijTA==
+"@shopify/slate-analytics@1.0.0-beta.16":
+  version "1.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-analytics/-/slate-analytics-1.0.0-beta.16.tgz#80fdd435fad0869340833b202746d31fbd005bca"
+  integrity sha512-Kgn5QgKsPuQ+NiwlRFOD9dckdXGw56qbRtWJFjJ4ySRb5NGnxiGyZxPi8mQoyE9oI5Va7yzT4rL3myVxLttSbw==
   dependencies:
-    "@shopify/slate-env" "1.0.0-beta.12"
-    "@shopify/slate-error" "1.0.0-beta.12"
-    "@shopify/slate-rc" "1.0.0-beta.12"
+    "@shopify/slate-env" "1.0.0-beta.16"
+    "@shopify/slate-error" "1.0.0-beta.14"
+    "@shopify/slate-rc" "1.0.0-beta.14"
     axios "^0.18.0"
     chalk "^2.3.0"
     inquirer "^5.0.1"
@@ -237,31 +237,31 @@
     uuid "^3.2.1"
     word-wrap "^1.2.3"
 
-"@shopify/slate-config@1.0.0-beta.12":
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-config/-/slate-config-1.0.0-beta.12.tgz#77bbebca7e57a98c4f970016dcffcba98803eae1"
-  integrity sha512-UPK/RM0uI4xmQ5dSCCJJF1sPdnrewrTsUflrKgjtez+PSudJJm46WopKnt3+73NGDxrNAdtVViR4OqI35w2eiA==
+"@shopify/slate-config@1.0.0-beta.14":
+  version "1.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-config/-/slate-config-1.0.0-beta.14.tgz#06cb79dea564fd3acf4c4b9b219e587c4b8b299d"
+  integrity sha512-4Z+O36MhI16Obg0ecBVihenIsx5HAfYfTtflARRWLR5a5QSLazbpmaiHFg23PB2ELTxBdXvP2iOtoHqmT7uaKA==
 
-"@shopify/slate-cssvar-loader@1.0.0-beta.12":
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-cssvar-loader/-/slate-cssvar-loader-1.0.0-beta.12.tgz#915071defe9a7c4cf05fab859615a6e2324a72df"
-  integrity sha512-T0B6ctdknYupim4lfc1r5LNMyk0rQbUG29g/wia1fsM9Y//GAE6U358R6p1GvBIi8iEMSvhf9pczTEkJFHXVEw==
+"@shopify/slate-cssvar-loader@1.0.0-beta.16":
+  version "1.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-cssvar-loader/-/slate-cssvar-loader-1.0.0-beta.16.tgz#071534dd9e7bb80dc46fa8c885de951e5d1a86e5"
+  integrity sha512-xB/iHsBRlpq2afBMpSPp3Hm4toCEX7IVUlyL1ewCeqdL8i7SxyS78/kGxLYhxq3EE5PED59t2fA1Rib3LV56qA==
   dependencies:
-    "@shopify/slate-config" "1.0.0-beta.12"
+    "@shopify/slate-config" "1.0.0-beta.14"
     loader-utils "^1.1.0"
 
-"@shopify/slate-env@1.0.0-beta.12":
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-env/-/slate-env-1.0.0-beta.12.tgz#dad939c5a06b69d61dd0d5fdf764daf6a9ac78f2"
-  integrity sha512-vt2pBnofBhxAxLqtEvOa7P5W9mckeZgTiG5+C38Cik6gpqskRDk+jQIGEjhtGy19qbliv15km04XgpxwM7g3Ng==
+"@shopify/slate-env@1.0.0-beta.16":
+  version "1.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-env/-/slate-env-1.0.0-beta.16.tgz#aeb9a60f598dfc5f7e1ae7b69e20e642a60196a8"
+  integrity sha512-IVMa1UdK1ArXaS23xKfihPmtLIp7ZJTV9JQEfbHusNSyT/v5PblS5lYsbwYfEdYKK9axpQoGQmVeN95o4U2dgQ==
   dependencies:
-    "@shopify/slate-config" "1.0.0-beta.12"
+    "@shopify/slate-config" "1.0.0-beta.14"
     dotenv "^4.0.0"
 
-"@shopify/slate-error@1.0.0-beta.12":
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-error/-/slate-error-1.0.0-beta.12.tgz#e9def27f597da7b89a66aac2605782613c464985"
-  integrity sha512-/lemvKbizAYgelVbTblYmQIYy1Yc0QFCZNsMDYUOsZ8DyUNWueo5XExFUfkMBvSxtXXmixsOSkB7vWKeRPuh5A==
+"@shopify/slate-error@1.0.0-beta.14":
+  version "1.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-error/-/slate-error-1.0.0-beta.14.tgz#7b3f985bd3087acc65fee24712e534ae956ecfab"
+  integrity sha512-4Z1OWhoshjEZSxdmS9cELWmgh2ZUZeGpU80hsZ3hnkXAJ0j+kbNN4mBRW+3rrITD1w+Bew3kH/cGRRX4BN16/g==
 
 "@shopify/slate-liquid-asset-loader@1.0.0-beta.11":
   version "1.0.0-beta.11"
@@ -271,26 +271,36 @@
     escape-string-regexp "^1.0.5"
     loader-utils "^1.1.0"
 
-"@shopify/slate-rc@1.0.0-beta.12":
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-rc/-/slate-rc-1.0.0-beta.12.tgz#7e6bda81e4f86ba7746d38140738b017422ac51e"
-  integrity sha512-2dXHziyLDUStlpLhqCd5oUaADqEhM3QaXGxyv4t5vc0STaMI1q0UxIiBqjNrkeP39I0PkZJ352ZsO/nE9tMqPg==
+"@shopify/slate-rc@1.0.0-beta.14":
+  version "1.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-rc/-/slate-rc-1.0.0-beta.14.tgz#e3fa20c52a243dd5541f516249e45abdc42449c0"
+  integrity sha512-cv1P//L6Ggt+ZRv9GoeBuXiaLyND5dVJM8l1pzqq+CsBo4x6R8LVtzgg25DcSI+q7r6ZM6WKKJ3WDW6mJw7VnQ==
   dependencies:
-    "@shopify/slate-config" "1.0.0-beta.12"
-    "@shopify/slate-error" "1.0.0-beta.12"
+    "@shopify/slate-config" "1.0.0-beta.14"
+    "@shopify/slate-error" "1.0.0-beta.14"
     fs-extra "^5.0.0"
     mock-fs "^4.4.2"
     semver "^5.5.0"
     uuid "^3.2.1"
 
-"@shopify/slate-sync@1.0.0-beta.12":
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-sync/-/slate-sync-1.0.0-beta.12.tgz#f731caa9e81e0461d4f9d442929c24481b34799c"
-  integrity sha512-NaE0pKYVQYLCqURWE1Taza6hwtO6G34M9rH+mO45p2ehVHGjvGi9QRwlo9+1UPaT1VgfLr/BINWmfo56dFDLCQ==
+"@shopify/slate-sections-plugin@1.0.0-beta.19":
+  version "1.0.0-beta.19"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-sections-plugin/-/slate-sections-plugin-1.0.0-beta.19.tgz#47d810ccdea4316d5781753a502ce60aa371a354"
+  integrity sha512-kGRlSMq+y8N+ay4OqhbtNpxclGjdyie0iDtgqEs1y9fZZkwv6XiuFqgIIAkqYoG/dVFCFkIsNEdHxykvzMq9aA==
   dependencies:
-    "@shopify/slate-analytics" "1.0.0-beta.12"
-    "@shopify/slate-config" "1.0.0-beta.12"
-    "@shopify/slate-env" "1.0.0-beta.12"
+    "@shopify/slate-translations" "1.0.0-beta.19"
+    fs-extra "^7.0.1"
+    path "^0.12.7"
+    webpack-sources "^1.3.0"
+
+"@shopify/slate-sync@1.0.0-beta.16":
+  version "1.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-sync/-/slate-sync-1.0.0-beta.16.tgz#fb6628c8134a32c77bfd99433fb6588dd6574d5f"
+  integrity sha512-ElqDUsh6MV12ui9b36kdL5IMKtt+KNzAOvMBlcxx7rCn8IfSfHe/NWF+flfRBAJZOJeKLaEp/hrmJfZnMH5XoA==
+  dependencies:
+    "@shopify/slate-analytics" "1.0.0-beta.16"
+    "@shopify/slate-config" "1.0.0-beta.14"
+    "@shopify/slate-env" "1.0.0-beta.16"
     "@shopify/themekit" "0.6.12"
     array-flatten "^2.1.1"
     chalk "2.3.2"
@@ -299,24 +309,26 @@
     jest "22.4.2"
     react-dev-utils "0.5.2"
 
-"@shopify/slate-tag-webpack-plugin@1.0.0-beta.12":
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-tag-webpack-plugin/-/slate-tag-webpack-plugin-1.0.0-beta.12.tgz#c7e3372e36e538ae9f83909354d7e6b3be3b643c"
-  integrity sha512-NTJs4lCi1uVe541xdctQIUwB1dC0KysI8cz+j/yNIovBXoVrXHic0e543nECuIQ2F1y5eJBotWAvLGy7FLhp+g==
+"@shopify/slate-tag-webpack-plugin@1.0.0-beta.14":
+  version "1.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-tag-webpack-plugin/-/slate-tag-webpack-plugin-1.0.0-beta.14.tgz#e26d0423af43c080b65e24b66bd76dc606a06b23"
+  integrity sha512-suY+8eaxI++0w6WE0j/6LN30+LmwXIlQtBiVpk99sTeZ/f8CCc0N8zRNDcp7p9Dq9kMOTdhBpAQ1pQemIoNwIw==
 
-"@shopify/slate-tools@1.0.0-beta.12":
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-tools/-/slate-tools-1.0.0-beta.12.tgz#cbf8b20127e31cadfba1cb4aa0c80ffc540c8b2b"
-  integrity sha512-A1TnYJsFTBgzoacLjGbWtIShHJEPrcWzHHW60bS3sqq93CApdQatwNqZ3fh6PS+f+fseP/WS5e3id2YgPG3Eng==
+"@shopify/slate-tools@1.0.0-beta.19":
+  version "1.0.0-beta.19"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-tools/-/slate-tools-1.0.0-beta.19.tgz#7987608e7e3867f1e08a9724928dbe2ac465aa87"
+  integrity sha512-sLnxu5vzkX3zVKUbo6N5JDA06d7a86uYi8FE8lnvjcWdt+xdmy6a136HqHYe+RRL6MfFWmxKy44ciDjoljU5GQ==
   dependencies:
     "@shopify/html-webpack-liquid-asset-tags-plugin" "1.0.0-beta.11"
-    "@shopify/slate-analytics" "1.0.0-beta.12"
-    "@shopify/slate-config" "1.0.0-beta.12"
-    "@shopify/slate-cssvar-loader" "1.0.0-beta.12"
-    "@shopify/slate-env" "1.0.0-beta.12"
+    "@shopify/slate-analytics" "1.0.0-beta.16"
+    "@shopify/slate-config" "1.0.0-beta.14"
+    "@shopify/slate-cssvar-loader" "1.0.0-beta.16"
+    "@shopify/slate-env" "1.0.0-beta.16"
     "@shopify/slate-liquid-asset-loader" "1.0.0-beta.11"
-    "@shopify/slate-sync" "1.0.0-beta.12"
-    "@shopify/slate-tag-webpack-plugin" "1.0.0-beta.12"
+    "@shopify/slate-sections-plugin" "1.0.0-beta.19"
+    "@shopify/slate-sync" "1.0.0-beta.16"
+    "@shopify/slate-tag-webpack-plugin" "1.0.0-beta.14"
+    "@shopify/slate-translations" "1.0.0-beta.19"
     "@shopify/theme-lint" "^2.0.0"
     "@shopify/themekit" "0.6.12"
     archiver "^2.1.0"
@@ -328,7 +340,7 @@
     browser-sync "^2.24.6"
     chalk "2.3.2"
     clean-webpack-plugin "0.1.19"
-    concat-style-loader "1.0.0-beta.12"
+    concat-style-loader "1.0.0-beta.14"
     console-control-strings "^1.1.0"
     copy-webpack-plugin "^4.2.3"
     cors "^2.8.4"
@@ -355,7 +367,7 @@
     mini-css-extract-plugin "^0.4.3"
     minimatch "^3.0.4"
     minimist "1.2.0"
-    node-sass "^4.7.2"
+    node-sass "^4.11.0"
     ora "^2.0.0"
     portscanner "^2.2.0"
     postcss-loader "2.1.1"
@@ -378,25 +390,34 @@
     yamljs "0.2.10"
     yargs "^11.0.0"
 
-"@shopify/theme-a11y@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-a11y/-/theme-a11y-1.0.1.tgz#0081521a779a90d16969ac464c7a4e365bae1886"
-  integrity sha1-AIFSGneakNFpaaxGTHpONluuGIY=
+"@shopify/slate-translations@1.0.0-beta.19":
+  version "1.0.0-beta.19"
+  resolved "https://registry.yarnpkg.com/@shopify/slate-translations/-/slate-translations-1.0.0-beta.19.tgz#1e528e3808aae1cf87f240a7ce2b45cdd0bdd5e0"
+  integrity sha512-vUR82KUi8EO4CUy1IjzN1nISOfW+gtt4V0VwoLtxcOtoq+ZDmt7fOJy1RfVYkUN56hp4E9H6baNx4NWz8dK77Q==
+  dependencies:
+    fs-extra "^7.0.1"
+    lodash "^4.17.11"
+    path "^0.12.7"
 
-"@shopify/theme-cart@^1.0.0-alpha.7":
-  version "1.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-cart/-/theme-cart-1.0.0-alpha.7.tgz#7065012c580fe8944f9e897f5404dbf8e1ccad01"
-  integrity sha1-cGUBLFgP6JRPnol/VATb+OHMrQE=
+"@shopify/theme-a11y@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-a11y/-/theme-a11y-3.0.0.tgz#4e3361c6c011cb8ce825d4ad164e5e066f73e6d3"
+  integrity sha512-ncqgPLut5GCuVCXu17lXogglz7n6EBg6L7oa2MTF2IcVsHq/HL+Krdnr25EdOPxDQjwPRyEwyKJCzSs5WceVjA==
 
-"@shopify/theme-currency@^1.0.0-alpha.7":
-  version "1.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-currency/-/theme-currency-1.0.0-alpha.7.tgz#8c8b753b179848661779d88545cb8f9233a0f9d8"
-  integrity sha1-jIt1OxeYSGYXediFRcuPkjOg+dg=
+"@shopify/theme-cart@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-cart/-/theme-cart-3.0.0.tgz#04c576ce560ca9215911691a6ba8306c6aa3a329"
+  integrity sha512-QsjdEpOJU2ebngqCNqBa1EIy+zDpoBUEs+x70GEBlOLqOJVBs7+9V3TfSQyqSpuA4VqeiochL5Tj1ULx0LLZsQ==
 
-"@shopify/theme-images@^1.0.0-alpha.7":
-  version "1.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-images/-/theme-images-1.0.0-alpha.7.tgz#56ea398993a4f3ccd64ed9fe4d664d592390c04b"
-  integrity sha1-Vuo5iZOk88zWTtn+TWZNWSOQwEs=
+"@shopify/theme-currency@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-currency/-/theme-currency-3.0.0.tgz#6f8c8fae41006cb32cbf312fcf38cf46fb8dfe75"
+  integrity sha512-fRsG/KFo7ktubi0Hp2DPG5+cEL/Ew1rQb20yqKdQ01+7xmlJh+k4udNSIu8VQmSsTGyznN2EcyJAYy0Sxbbncg==
+
+"@shopify/theme-images@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-images/-/theme-images-3.0.0.tgz#e3bdcdd4d1b947df519e645e4489e1dd58d27cfc"
+  integrity sha512-NJnfq+ByCTWyJWMbeNOOIYMlrUKn5NwP8EnqOvEtnteEvtbUMMc4JSWq3Gt4CnaqXJvGy/FbLTHmLs9ahYzVZw==
 
 "@shopify/theme-lint@^2.0.0":
   version "2.0.0"
@@ -409,20 +430,10 @@
     htmllint "^0.6.0"
     lodash "^4.15.0"
 
-"@shopify/theme-rte@^1.0.0-alpha.7":
-  version "1.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-rte/-/theme-rte-1.0.0-alpha.7.tgz#dfb99ac10c1b9a20bbdfde32929d6dbaf2404deb"
-  integrity sha1-37mawQwbmiC7394ykp1tuvJATes=
-
-"@shopify/theme-sections@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-sections/-/theme-sections-1.1.0.tgz#692655506b4b0100372f0f7ae45da9d07c2a76e3"
-  integrity sha512-x+pEnmKY2oY8Aw8KWlGNkE6r9eGQqiIz64VoMI190s6sFNOr7BYjJ92JdI7BxwLfkLcglLvVQJs7SGfW77iruA==
-
-"@shopify/theme-variants@^1.0.0-alpha.8":
-  version "1.0.0-alpha.8"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-variants/-/theme-variants-1.0.0-alpha.8.tgz#9084ff1db3eb4b244253e93905570ecbb804d389"
-  integrity sha1-kIT/HbPrSyRCU+k5BVcOy7gE04k=
+"@shopify/theme-sections@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-sections/-/theme-sections-3.0.0.tgz#f9267f8a9f3985db7c0041dc0b135bf0f2fb168e"
+  integrity sha512-D6oBN0IiHwkvoEax2KbWtHbh3cPERrPs8JG+Qe+46NycGPEsuN5EcDYs6KHN1fSRa91s6dPfky6ullf3IS+ssw==
 
 "@shopify/themekit@0.6.12":
   version "0.6.12"
@@ -432,6 +443,17 @@
     bin-wrapper "3.0.2"
     minimist "1.2.0"
     simple-spinner "0.0.5"
+
+"@we-make-websites/stylelint-config@^1.0.1":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@we-make-websites/stylelint-config/-/stylelint-config-1.0.2.tgz#b43848ffdbf1cdae5367b05df65474acbf717cdc"
+  integrity sha512-03My3CkTa5hhxFmdz5MPgA6vGOph4FaiiIlvpe4aCHpYrUsSlNKtCDSzy55K7VuEeZiOuBA+ku9FBKk+hsrQ2A==
+  dependencies:
+    merge "1.2.x"
+    stylelint-config-prettier "^4.0.0"
+    stylelint-order "1.0.0"
+    stylelint-prettier "1.0.6"
+    stylelint-scss "3.3.0"
 
 "@webassemblyjs/ast@1.7.6":
   version "1.7.6"
@@ -664,7 +686,7 @@ ajv-keywords@^3.0.0, ajv-keywords@^3.1.0:
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.2.0.tgz#e86b819c602cf8821ad637413698f1dec021847a"
   integrity sha1-6GuBnGAs+IIa1jdBNpjx3sAhhHo=
 
-ajv@^5.1.0, ajv@^5.2.3, ajv@^5.3.0:
+ajv@^5.2.3, ajv@^5.3.0:
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-5.5.2.tgz#73b5eeca3fab653e3d3f9422b341ad42205dc965"
   integrity sha1-c7Xuyj+rZT49P5Qis0GtQiBdyWU=
@@ -1068,7 +1090,7 @@ aws-sign2@~0.7.0:
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
   integrity sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=
 
-aws4@^1.6.0, aws4@^1.8.0:
+aws4@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
@@ -2871,7 +2893,7 @@ colors@~1.1.2:
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
   integrity sha1-FopHAXVran9RoSzgyXv6KMCE7WM=
 
-combined-stream@1.0.6, combined-stream@~1.0.5, combined-stream@~1.0.6:
+combined-stream@1.0.6, combined-stream@~1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.6.tgz#723e7df6e801ac5613113a7e445a9b69cb632818"
   integrity sha1-cj599ugBrFYTETp+RFqbactjKBg=
@@ -2945,10 +2967,10 @@ concat-stream@^1.4.6, concat-stream@^1.4.7, concat-stream@^1.5.0, concat-stream@
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-concat-style-loader@1.0.0-beta.12:
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/concat-style-loader/-/concat-style-loader-1.0.0-beta.12.tgz#576ac7dd3fe3c2f577ab29b559de401775009c71"
-  integrity sha512-vrU3TEt1oY0Pa9MdrTSBZmngcBFVMNTXAcm7RwXeNbONS01R5CSMWd0WzIJfMddHE6VdV1Bn1/Xh0gi8MDPTyw==
+concat-style-loader@1.0.0-beta.14:
+  version "1.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/concat-style-loader/-/concat-style-loader-1.0.0-beta.14.tgz#7ddb9864614aad956a29e3491b50354b37f9d4a9"
+  integrity sha512-NCe7NkXhohmTuKaEc+bu4Vfe6hKKGn/8R0S0z/JMWng2S1+/RZg8GDPa/00XVyc2B1AnrKJrNB8LmS95YwxKDA==
   dependencies:
     loader-utils "^1.1.0"
 
@@ -4708,7 +4730,7 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
-extend@^3.0.0, extend@~3.0.1, extend@~3.0.2:
+extend@^3.0.0, extend@~3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
@@ -4793,6 +4815,11 @@ fast-diff@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.1.2.tgz#4b62c42b8e03de3f848460b639079920695d0154"
   integrity sha512-KaJUt+M9t1qaIteSvjc6P3RbMdXsNhK61GRftR6SNxqmhthcd9MGIi4T+o0jD8LUSpSnSKXE20nLtJ3fOHxQig==
+
+fast-diff@^1.1.2:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
+  integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
 
 fast-glob@^2.0.2:
   version "2.2.2"
@@ -5110,7 +5137,7 @@ forever-agent@~0.6.1:
   resolved "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
   integrity sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=
 
-form-data@~2.3.1, form-data@~2.3.2:
+form-data@~2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.3.2.tgz#4970498be604c20c005d4f5c23aecd21d6b49099"
   integrity sha1-SXBJi+YEwgwAXU9cI67NIda0kJk=
@@ -5162,6 +5189,15 @@ fs-extra@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-5.0.0.tgz#414d0110cdd06705734d055652c5411260c31abd"
   integrity sha512-66Pm4RYbjzdyeuqudYqhFiNBbCIuI9kgRqLPSHIlXHidW8NIQtVdkM1yeZ4lXwuhbTETv3EUGMNHAAw6hiundQ==
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
+fs-extra@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
+  integrity sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==
   dependencies:
     graceful-fs "^4.1.2"
     jsonfile "^4.0.0"
@@ -5625,14 +5661,6 @@ har-schema@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/har-schema/-/har-schema-2.0.0.tgz#a94c2224ebcac04782a0d9035521f24735b7ec92"
   integrity sha1-qUwiJOvKwEeCoNkDVSHyRzW37JI=
-
-har-validator@~5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/har-validator/-/har-validator-5.0.3.tgz#ba402c266194f15956ef15e0fcf242993f6a7dfd"
-  integrity sha1-ukAsJmGU8VlW7xXg/PJCmT9qff0=
-  dependencies:
-    ajv "^5.1.0"
-    har-schema "^2.0.0"
 
 har-validator@~5.1.0:
   version "5.1.0"
@@ -7435,20 +7463,10 @@ lodash._root@^3.0.0:
   resolved "https://registry.yarnpkg.com/lodash._root/-/lodash._root-3.0.1.tgz#fba1c4524c19ee9a5f8136b4609f017cf4ded692"
   integrity sha1-+6HEUkwZ7ppfgTa0YJ8BfPTe1pI=
 
-lodash.assign@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/lodash.assign/-/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
-  integrity sha1-DZnzzNem0mHRm9rrkkUAXShYCOc=
-
 lodash.camelcase@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
   integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
-
-lodash.clonedeep@^4.3.2:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
-  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
 lodash.debounce@^4.0.8:
   version "4.0.8"
@@ -7495,11 +7513,6 @@ lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
-
-lodash.mergewith@^4.6.0:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
-  integrity sha512-eWw5r+PYICtEBgrBE5hhlT6aAa75f411bgDz/ZL2KZqYV03USvucsxcHUIlGTDTECs1eunpI7HOV7U+WLDvNdQ==
 
 lodash.restparam@^3.0.0:
   version "3.6.1"
@@ -7553,6 +7566,11 @@ lodash@^4.0.0, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.3, 
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+
+lodash@^4.17.11, lodash@^4.17.15:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 lodash@^4.2.0, lodash@^4.6.1, lodash@~4.17.0:
   version "4.17.10"
@@ -8059,7 +8077,12 @@ mute-stream@0.0.7:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
   integrity sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
 
-nan@^2.10.0, nan@^2.9.2:
+nan@^2.13.2:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
+  integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
+
+nan@^2.9.2:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.11.0.tgz#574e360e4d954ab16966ec102c0c049fd961a099"
   integrity sha512-F4miItu2rGnV2ySkXOQoA8FKz/SR2Q2sWP0sbTxNxz/tuokeC8WxOhPMcwi0qIyGtVn/rrSeLbvVkznqCdwYnw==
@@ -8202,10 +8225,10 @@ node-releases@^1.0.0-alpha.11:
   dependencies:
     semver "^5.3.0"
 
-node-sass@^4.7.2:
-  version "4.9.3"
-  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.9.3.tgz#f407cf3d66f78308bb1e346b24fa428703196224"
-  integrity sha512-XzXyGjO+84wxyH7fV6IwBOTrEBe2f0a6SBze9QWWYR/cL74AcQUks2AsqcCZenl/Fp/JVbuEaLpgrLtocwBUww==
+node-sass@^4.11.0:
+  version "4.13.0"
+  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.13.0.tgz#b647288babdd6a1cb726de4545516b31f90da066"
+  integrity sha512-W1XBrvoJ1dy7VsvTAS5q1V45lREbTlZQqFbiHb3R3OTTCma0XBtuG6xZ6Z4506nR4lmHPTqVRwxT6KgtWC97CA==
   dependencies:
     async-foreach "^0.1.3"
     chalk "^1.1.1"
@@ -8214,15 +8237,13 @@ node-sass@^4.7.2:
     get-stdin "^4.0.1"
     glob "^7.0.3"
     in-publish "^2.0.0"
-    lodash.assign "^4.2.0"
-    lodash.clonedeep "^4.3.2"
-    lodash.mergewith "^4.6.0"
+    lodash "^4.17.15"
     meow "^3.7.0"
     mkdirp "^0.5.1"
-    nan "^2.10.0"
+    nan "^2.13.2"
     node-gyp "^3.8.0"
     npmlog "^4.0.0"
-    request "2.87.0"
+    request "^2.88.0"
     sass-graph "^2.2.4"
     stdout-stream "^1.4.0"
     "true-case-path" "^1.0.2"
@@ -8348,11 +8369,6 @@ nwsapi@^2.0.7:
   version "2.0.9"
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.0.9.tgz#77ac0cdfdcad52b6a1151a84e73254edc33ed016"
   integrity sha512-nlWFSCTYQcHk/6A9FFnfhKc14c3aFhfdNBXgo8Qgi9QTBu/qg3Ww+Uiz9wMzXd1T8GFxPc2QIHB6Qtf2XFryFQ==
-
-oauth-sign@~0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.8.2.tgz#46a6ab7f0aead8deae9ec0565780b7d4efeb9d43"
-  integrity sha1-Rqarfwrq2N6unsBWV4C31O/rnUM=
 
 oauth-sign@~0.9.0:
   version "0.9.0"
@@ -8838,6 +8854,14 @@ path-type@^3.0.0:
   dependencies:
     pify "^3.0.0"
 
+path@^0.12.7:
+  version "0.12.7"
+  resolved "https://registry.yarnpkg.com/path/-/path-0.12.7.tgz#d4dc2a506c4ce2197eb481ebfcd5b36c0140b10f"
+  integrity sha1-1NwqUGxM4hl+tIHr/NWzbAFAsQ8=
+  dependencies:
+    process "^0.11.1"
+    util "^0.10.3"
+
 pbkdf2@^3.0.3:
   version "3.0.16"
   resolved "https://registry.yarnpkg.com/pbkdf2/-/pbkdf2-3.0.16.tgz#7404208ec6b01b62d85bf83853a8064f8d9c2a5c"
@@ -9317,13 +9341,13 @@ postcss-selector-parser@^4.0.0:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss-sorting@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-3.1.0.tgz#af7c90ee73ad12569a57664eaf06735c2e25bec0"
-  integrity sha512-YCPTcJwGIInF1LpMD1lIYvMHTGUL4s97o/OraA6eKvoauhhk6vjwOWDDjm6uRKqug/kyDPMKEzmYZ6FtW6RDgw==
+postcss-sorting@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-4.1.0.tgz#a107f0bf3852977fa64e4442bc340c88d5aacdb3"
+  integrity sha512-r4T2oQd1giURJdHQ/RMb72dKZCuLOdWx2B/XhXN1Y1ZdnwXsKH896Qz6vD4tFy9xSjpKNYhlZoJmWyhH/7JUQw==
   dependencies:
     lodash "^4.17.4"
-    postcss "^6.0.13"
+    postcss "^7.0.0"
 
 postcss-styled@>=0.33.0, postcss-styled@^0.33.0:
   version "0.33.0"
@@ -9388,7 +9412,7 @@ postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.13, postcss@^6.0.14, postcss@^6.0.8:
+postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.14, postcss@^6.0.8:
   version "6.0.23"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
   integrity sha512-soOk1h6J3VMTZtVeVpv15/Hpdl2cBLX3CAw4TAbkpTJiNPk9YP/zWcD1ND+xEtvyuuvKzbxliTOIyvkSeSJ6ag==
@@ -9421,6 +9445,13 @@ preserve@^0.2.0:
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
 
+prettier-linter-helpers@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
+  integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
+  dependencies:
+    fast-diff "^1.1.2"
+
 "prettier@<2.0 >= 1.9.2", prettier@^1.10.2:
   version "1.14.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.14.2.tgz#0ac1c6e1a90baa22a62925f41963c841983282f9"
@@ -9452,7 +9483,7 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
   integrity sha512-MtEC1TqN0EU5nephaJ4rAtThHtC86dNN9qCuEhtshvpVBkAW5ZO7BASN9REnF9eoXGcRub+pFuKEpOHE+HbEMw==
 
-process@^0.11.10:
+process@^0.11.1, process@^0.11.10:
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
@@ -9573,7 +9604,7 @@ qs@6.5.1:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
   integrity sha512-eRzhrN1WSINYCDCbrz796z37LOe3m5tmW7RQf6oBntukAG1nmovJvhnwHHRMAfeoItc1m2Hk02WER2aQ/iqs+A==
 
-qs@~6.5.1, qs@~6.5.2:
+qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
@@ -10106,33 +10137,7 @@ request-promise-native@^1.0.5:
     stealthy-require "^1.1.0"
     tough-cookie ">=2.3.3"
 
-request@2.87.0:
-  version "2.87.0"
-  resolved "https://registry.yarnpkg.com/request/-/request-2.87.0.tgz#32f00235cd08d482b4d0d68db93a829c0ed5756e"
-  integrity sha512-fcogkm7Az5bsS6Sl0sibkbhcKsnyon/jV1kF3ajGmF0c8HrttdKTPRT9hieOaQHA5HEq6r8OyWOo/o781C1tNw==
-  dependencies:
-    aws-sign2 "~0.7.0"
-    aws4 "^1.6.0"
-    caseless "~0.12.0"
-    combined-stream "~1.0.5"
-    extend "~3.0.1"
-    forever-agent "~0.6.1"
-    form-data "~2.3.1"
-    har-validator "~5.0.3"
-    http-signature "~1.2.0"
-    is-typedarray "~1.0.0"
-    isstream "~0.1.2"
-    json-stringify-safe "~5.0.1"
-    mime-types "~2.1.17"
-    oauth-sign "~0.8.2"
-    performance-now "^2.1.0"
-    qs "~6.5.1"
-    safe-buffer "^5.1.1"
-    tough-cookie "~2.3.3"
-    tunnel-agent "^0.6.0"
-    uuid "^3.1.0"
-
-request@^2.87.0:
+request@^2.87.0, request@^2.88.0:
   version "2.88.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.0.tgz#9c2fca4f7d35b592efe57c7f0a55e81052124fef"
   integrity sha512-NAqBSrijGLZdM0WZNsInLJpkJokL72XYjUpnB0iwsRgxh7dB6COrHnTBNwN0E+lHDAJzu7kLAkDeY08z2/A0hg==
@@ -11153,33 +11158,35 @@ style-search@^0.1.0:
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
   integrity sha1-eVjHk+R+MuB9K1yv5cC/jhLneQI=
 
-stylelint-config-prettier@^3.0.4, stylelint-config-prettier@^3.3.0:
+stylelint-config-prettier@^3.0.4:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-3.3.0.tgz#cc22a4b5310c1919cee77131d6e220c60a62a480"
   integrity sha512-Iygd3yYVGzh4xHv9IqVZ7dEtHkkiXRH3SH17TlLSBmFULZSO8DIUnwiu3Rp91hW3xV1apRRUWqbioCDHaYPbTA==
   dependencies:
     stylelint "^9.1.1"
 
-stylelint-config-shopify@^5.0.0:
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/stylelint-config-shopify/-/stylelint-config-shopify-5.1.2.tgz#e2239300d92d4e057f340795cd6104137d58817b"
-  integrity sha512-Kac4oHu/+0j//nD6IshfC8V+dT9CkAk/MRf4bc4pvW121KUPa+YIsXEggeVTPny590l1CveyFA73KeTKoNXjXg==
-  dependencies:
-    merge "1.2.x"
-    stylelint-config-prettier "^3.3.0"
-    stylelint-order "~0.8.1"
-    stylelint-scss "^3.0.0"
+stylelint-config-prettier@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-4.0.0.tgz#8c712977be13bd25191ab8b986b5c07a3342a5dc"
+  integrity sha512-cwh3QbBC2+3zBeMvuxFjT8XsbSdyoyELOY9BZqMuvphUKEQ+srkPWoN60FlvRwLB014TOke4Y12KvTtfKnaHhg==
 
-stylelint-order@~0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-0.8.1.tgz#35f71af3a15954154e0e99e5646ba3d6fbe34f8d"
-  integrity sha512-8mp1P2wnI9XShYXVXDsxVigE2eXnc0C2O4ktbwUvTBwjCP4xZskIbUVxp1evSG3OK4R7hXVNl/2BnJCZkrcc/w==
+stylelint-order@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-1.0.0.tgz#089fc3d5cdf7e7d4ac1882f65b60b25db750413c"
+  integrity sha512-2IVM8GzeKIDQDTETNdmgX99ywGrb7OqFWkniCw7QLqS/xONPGMLY/xAQnvGcUS3oBSo8znsoshsWVBqPz2Kv4Q==
   dependencies:
-    lodash "^4.17.4"
-    postcss "^6.0.14"
-    postcss-sorting "^3.1.0"
+    lodash "^4.17.10"
+    postcss "^7.0.2"
+    postcss-sorting "^4.0.0"
 
-stylelint-scss@^3.0.0:
+stylelint-prettier@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/stylelint-prettier/-/stylelint-prettier-1.0.6.tgz#479b76336751cb617c5beb7545d05a791f945e1e"
+  integrity sha512-XKlTyJHJYiyXs9JXRMt2FQxMJoBSjz4I6+4+/R3o8/ePof19v9naC4d0zsMKUJ88by81+qHfqXBLfmAalu46cg==
+  dependencies:
+    prettier-linter-helpers "^1.0.0"
+
+stylelint-scss@3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.3.0.tgz#0de0ef241d347e32ed28a2cffb8397c37ae2738c"
   integrity sha512-1E54Tsx/RPJDbGqLK8LcCUa62dB+KRg4zhqo/ub38PBpf16qz5mY/6VJCkQHSU3MygyyJDiFf/J5TLLznrRmGA==
@@ -11636,13 +11643,6 @@ tough-cookie@>=2.3.3, tough-cookie@^2.3.4, tough-cookie@~2.4.3:
     psl "^1.1.24"
     punycode "^1.4.1"
 
-tough-cookie@~2.3.3:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.4.tgz#ec60cee38ac675063ffc97a5c18970578ee83655"
-  integrity sha512-TZ6TTfI5NtZnuyy/Kecv+CnoROnyXn2DN97LontgQpCwsX2XyLYCC0ENhYkehSOwAp8rTQKc/NUIF7BkQ5rKLA==
-  dependencies:
-    punycode "^1.4.1"
-
 tr46@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-1.0.1.tgz#a8b13fd6bfd2489519674ccde55ba3693b706d09"
@@ -12039,7 +12039,7 @@ uuid@^2.0.1:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
   integrity sha1-Z+LoY3lyFVMN/zGOW/nc6/1Hsho=
 
-uuid@^3.0.1, uuid@^3.1.0, uuid@^3.2.1, uuid@^3.3.2:
+uuid@^3.0.1, uuid@^3.2.1, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
@@ -12258,6 +12258,14 @@ webpack-sources@^1.1.0, webpack-sources@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.2.0.tgz#18181e0d013fce096faf6f8e6d41eeffffdceac2"
   integrity sha512-9BZwxR85dNsjWz3blyxdOhTgtnQvv3OEs5xofI0wPYTwu5kaWxS08UuD1oI7WLBLpRO+ylf0ofnXLXWmGb2WMw==
+  dependencies:
+    source-list-map "^2.0.0"
+    source-map "~0.6.1"
+
+webpack-sources@^1.3.0:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
+  integrity sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==
   dependencies:
     source-list-map "^2.0.0"
     source-map "~0.6.1"

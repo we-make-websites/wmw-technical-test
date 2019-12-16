@@ -1,12 +1,6 @@
 {
-  "extends": [
-    "stylelint-config-shopify",
-    "stylelint-config-prettier"
+  'extends': [
+    'stylelint-config-prettier',
+    '@we-make-websites/stylelint-config',
   ],
-  "rules": {
-    "color-no-hex": null,
-    "selector-class-pattern": null,
-    "selector-no-qualifying-type": null,
-    "selector-max-type": null
-  }
 }
