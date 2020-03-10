@@ -2,7 +2,7 @@
 
 > This is an entry level test that we require all front-end developer candidates trial before proceeding into the final stage. We do not pay or use any of the work produced on a commercial environment.
 
-If you have come directly to this repository without a reference and curious to trial out this test - then please contact daniel@wemakewebsites.com to get yourself started!
+If you have come directly to this repository without a reference and curious to trial out this test - then please contact developer@wemakewebsites.com to get yourself started!
 
 ## Brief
 You have been provided a link to a Shopify development theme which contains only a basic header and also a list of unstyled product cards. The link should contain a `?preview_theme_id=YOUR_THEME_ID` suffixed at the end of the url.
@@ -16,7 +16,7 @@ The Invision prototype also includes a style guide. We recommend using the Invis
 The `/src/sections/featured-collection.liquid` contains the necessary Liquid markup and content required for the design to function - but you are encouraged to add in your own custom HTML/Liquid to make your build work with the designs.
 
 #### Tips
-- We recommend using Flickity to build the featured collection carousel.
+- We recommend using [Flickity](https://flickity.metafizzy.co/) or [Swiper.js](https://swiperjs.com/) to build the featured collection carousel.
 - One of the products have a `badge: sale` tag that had been added behind the scenes. Try to use that tag in order to display the badge on the product in the carousel. You can read more about `product.tags` under `The product object` article and how to manipulate strings in the `String filters` article shown in the Useful Resources section below.
 
 ### Bonus
