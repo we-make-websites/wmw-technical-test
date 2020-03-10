@@ -32,7 +32,7 @@ The following instructions are not required for a successful submission. They ar
 
   You can find some relevant documentation for this task below in the Useful Resources section regarding making AJAX calls in Shopify.
 
-  There is also a `featured-collection.js` script in the `/src/sections/` directory which already registers the Section in Shopify. All your functionality should be contained in this file. You are open to use third party packages as well as a JS Framework if you feel more comfortable.
+  There is also a `featured-collection.js` script in the `/src/sections/` directory which already registers the Section in Shopify. All your functionality should be contained in this file. We encourage the use of ES6 as opposed to jQuery but is not mandatory.
 
   > You can test if the function has been successful by navigating to the `https://wmw-technical-test.myshopify.com/cart` page or by visiting the  `https://wmw-technical-test.myshopify.com/cart.json` url to see if a product data has been added to your cart.
 
