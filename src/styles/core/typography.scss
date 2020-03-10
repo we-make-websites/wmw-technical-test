@@ -3,9 +3,7 @@ html {
 }
 
 body {
-  font-family: $font-body;
-  font-weight: $font-body-weight;
-  font-style: $font-body-style;
+  font-family: $FONT_BODY;
   font-size: 1.6rem;
 }
 
@@ -15,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-heading;
+  font-family: $FONT_DISPLAY;
 }
 
 body,

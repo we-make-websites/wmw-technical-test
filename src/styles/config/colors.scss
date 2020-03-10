@@ -1,0 +1,46 @@
+/**
+ * Config: Colors
+ * -----------------------------------------------------------------------------
+ * Universal variables that have common roles and usages throughout the theme.
+ *
+ */
+
+/**
+ * Brand.
+ */
+$COLOR_PRIMARY: rgb(0, 0, 0);
+$COLOR_SECONDARY: rgb(99, 115, 129);
+
+/**
+ * Typography.
+ */
+$COLOR_TEXT_PRIMARY: rgb(0, 0, 0);
+$COLOR_TEXT_SECONDARY: rgb(48, 48, 48);
+$COLOR_TEXT_LIGHT: rgb(94, 94, 94);
+$COLOR_TEXT_INVERSE: rgb(255, 255, 255);
+
+/**
+ * Background / Surfaces / Borders.
+ */
+$COLOR_BACKGROUND_DARK: rgb(0, 0, 0);
+$COLOR_BACKGROUND_LIGHT: rgb(246, 246, 246);
+$COLOR_BACKGROUND_WHITE: rgb(255, 255, 255);
+$COLOR_BORDER_DARK: rgb(173, 173, 173);
+$COLOR_BORDER_LIGHT: rgb(239, 239, 239);
+
+/**
+ * Links / Buttons.
+ */
+$COLOR_LINK: rgb(69, 110, 150);
+$COLOR_LINK_HOVER: rgb(0, 68, 136);
+$COLOR_BUTTON: rgb(0, 115, 230);
+$COLOR_BUTTON_HOVER: rgb(0, 68, 136);
+
+/**
+ * Support.
+ */
+$COLOR_SUPPORT_INFO: rgb(0, 0, 0);
+$COLOR_SUPPORT_SUCCESS: rgb(0, 170, 0);
+$COLOR_SUPPORT_WARNING: rgb(230, 87, 34);
+$COLOR_SUPPORT_ERROR: rgb(246, 71, 71);
+$COLOR_SUPPORT_FOCUS: rgb(0, 115, 230);

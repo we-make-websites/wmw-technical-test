@@ -59,11 +59,10 @@
 // Overrides .visually-hidden when focused
 .skip-link:focus {
   @include visually-shown(absolute);
-  z-index: 10000;
-  padding: $grid-gutter / 2;
-  background-color: $color-body;
-  color: $color-body-text;
+  color: $COLOR_TEXT_PRIMARY;
+  padding: $GUTTER_WIDTH / 2;
   transition: none;
+  z-index: 10000;
 }
 
 .hide {

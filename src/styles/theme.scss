@@ -9,7 +9,11 @@
 /**
  * Settings.
  */
-@import './variables';
+@import './config/colors';
+@import './config/grid';
+@import './config/layout';
+@import './config/spacing';
+@import './config/typography';
 
 /**
  * Tools.
@@ -34,6 +38,7 @@
 @import './components/buttons';
 @import './components/icons';
 @import './components/placeholders';
+@import './components/product-card';
 @import './components/responsive-images';
 
 /**

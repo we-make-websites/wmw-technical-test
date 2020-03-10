@@ -1,0 +1,39 @@
+/**
+ * Config: Typography
+ * -----------------------------------------------------------------------------
+ *
+ */
+
+/**
+ * Font stack.
+ */
+$FONT_DISPLAY: -apple-system, blinkmacsystemfont, 'San Francisco', 'Helvetica', sans-serif;
+$FONT_HEADING: -apple-system, blinkmacsystemfont, 'San Francisco', 'Helvetica', sans-serif;
+$FONT_BODY: -apple-system, blinkmacsystemfont, 'San Francisco', 'Helvetica', sans-serif;
+
+/**
+ * Weights.
+ */
+$WEIGHT_THIN: 100;
+$WEIGHT_EXTRA_LIGHT: 200;
+$WEIGHT_LIGHT: 300;
+$WEIGHT_BOOK: 400;
+$WEIGHT_MEDIUM: 500;
+$WEIGHT_SEMIBOLD: 600;
+$WEIGHT_BOLD: 700;
+$WEIGHT_HEAVY: 800;
+$WEIGHT_BLACK: 900;
+
+/**
+ * Typographic positioning and spacing.
+ */
+$BASELINE: 1rem;
+$LINE_HEIGHT_META: 1.3;
+$LINE_HEIGHT_BODY: 1.5;
+$LINE_HEIGHT_CAPTION: 1.25;
+$LINE_HEIGHT_DISPLAY: 1.3;
+$LETTER_SPACING_BODY: 0;
+$LETTER_SPACING_DISPLAY: 0;
+$LETTER_SPACING_SUBTITLE: 0;
+$LETTER_SPACING_BUTTON: 0.5px;
+$LETTER_SPACING_LABEL: 0.5px;

@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@we-make-websites/stylelint-config": "^1.0.1",
-    "@shopify/slate-tools": "1.0.0-beta.19",
+    "@we-make-websites/slate-tools": "1.0.0-beta.28",
     "babel-preset-shopify": "^16.2.0",
     "eslint-plugin-shopify": "^19.0.0",
     "stylelint-config-prettier": "^3.0.4"
@@ -29,6 +29,7 @@
     "@shopify/theme-currency": "3.0.0",
     "@shopify/theme-images": "3.0.0",
     "@shopify/theme-sections": "3.0.0",
+    "sass-mq": "^5.0.0",
     "jquery": "^3.2.1",
     "lodash-es": "^4.17.4",
     "normalize.css": "^7.0.0"

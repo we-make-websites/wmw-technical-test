@@ -1,0 +1,269 @@
+/**
+ * Config: Grid
+ * -----------------------------------------------------------------------------
+ * Primary grid system based on materialize.css.
+ * - https://sass-mq.github.io/sass-mq
+ *
+ * Why we use use em values for media queries.
+ * https://zellwk.com/blog/media-query-units/
+ */
+
+// stylelint-disable
+@import '~sass-mq';
+
+$mq-breakpoints: (
+  tiny: 320px,
+  small: 576px,
+  medium: 768px,
+  large: 1024px,
+  wide: 1328px
+);
+
+$NUM_COLS: 12 !default;
+$GUTTER_WIDTH: 1rem !default;
+$ELEMENT_TOP_MARGIN: 1rem !default;
+$ELEMENT_BOTTOM_MARGIN: 1rem !default;
+
+@mixin reset-offset {
+  left: auto;
+  margin-left: auto;
+  right: auto;
+}
+
+@mixin grid-classes($size, $i, $perc) {
+  &.offset-#{$size}#{$i} {
+    margin-left: $perc;
+  }
+
+  &.pull-#{$size}#{$i} {
+    right: $perc;
+  }
+
+  &.push-#{$size}#{$i} {
+    left: $perc;
+  }
+}
+
+@mixin col-padding($container: grid) {
+  @include mq($from: small) {
+    &__#{$container} {
+      padding: 0 ($GUTTER_WIDTH / 4);
+    }
+  }
+
+  @include mq($from: medium) {
+    &__#{$container} {
+      padding: 0 ($GUTTER_WIDTH / 3);
+    }
+  }
+
+  @include mq($from: large) {
+    &__#{$container} {
+      padding: 0 ($GUTTER_WIDTH / 2);
+    }
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: map-get($map: $mq-breakpoints, $key: wide);
+  padding: 0 ($GUTTER_WIDTH / 2);
+  width: 100%;
+
+  @include mq($from: large) {
+    padding: 0 $GUTTER_WIDTH;
+  }
+}
+
+.col .row {
+  margin-left: -($GUTTER_WIDTH / 2);
+  margin-right: -($GUTTER_WIDTH / 2);
+
+  @include mq($from: large) {
+    margin-left: -$GUTTER_WIDTH;
+    margin-right: -$GUTTER_WIDTH;
+  }
+}
+
+.section {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+
+  &.no-padding {
+    padding: 0;
+  }
+
+  &.no-padding-bottom {
+    padding-bottom: 0;
+  }
+
+  &.no-padding-top {
+    padding-top: 0;
+  }
+}
+
+.row {
+  margin-bottom: $ELEMENT_BOTTOM_MARGIN;
+  margin-left: auto;
+  margin-right: auto;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &.no-gutter {
+    .col {
+      padding: 0;
+    }
+  }
+
+  &.no-margin {
+    margin: 0;
+  }
+
+  &.no-margin-bottom {
+    margin-bottom: 0;
+  }
+
+  &.no-margin-top {
+    margin-top: 0;
+  }
+
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+
+  .col {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding: 0 ($GUTTER_WIDTH / 4);
+
+    @include mq($from: medium) {
+      padding: 0 ($GUTTER_WIDTH / 3);
+    }
+
+    @include mq($from: large) {
+      padding: 0 ($GUTTER_WIDTH / 2);
+    }
+
+    .no-gutter {
+      padding: 0;
+    }
+
+    &[class*=push-],
+    &[class*=pull-] {
+      position: relative;
+    }
+
+    $i: 1;
+
+    @while $i <= $NUM_COLS {
+      $perc: unquote((100 / ($NUM_COLS / $i)) + '%');
+
+      &.xs#{$i} {
+        @include reset-offset;
+        width: $perc;
+      }
+      $i: $i + 1;
+    }
+
+    $i: 1;
+
+    @while $i <= $NUM_COLS {
+      $perc: unquote((100 / ($NUM_COLS / $i)) + '%');
+      @include grid-classes('xs', $i, $perc);
+      $i: $i + 1;
+    }
+
+    @include mq($from: small) {
+      $i: 1;
+
+      @while $i <= $NUM_COLS {
+        $perc: unquote((100 / ($NUM_COLS / $i)) + '%');
+
+        &.s#{$i} {
+          @include reset-offset;
+          width: $perc;
+        }
+        $i: $i + 1;
+      }
+
+      $i: 1;
+
+      @while $i <= $NUM_COLS {
+        $perc: unquote((100 / ($NUM_COLS / $i)) + '%');
+        @include grid-classes('s', $i, $perc);
+        $i: $i + 1;
+      }
+    }
+
+    @include mq($from: medium) {
+      $i: 1;
+
+      @while $i <= $NUM_COLS {
+        $perc: unquote((100 / ($NUM_COLS / $i)) + '%');
+
+        &.m#{$i} {
+          @include reset-offset;
+          width: $perc;
+        }
+        $i: $i + 1;
+      }
+
+      $i: 1;
+
+      @while $i <= $NUM_COLS {
+        $perc: unquote((100 / ($NUM_COLS / $i)) + '%');
+        @include grid-classes('m', $i, $perc);
+        $i: $i + 1;
+      }
+    }
+
+    @include mq($from: large) {
+      $i: 1;
+
+      @while $i <= $NUM_COLS {
+        $perc: unquote((100 / ($NUM_COLS / $i)) + '%');
+
+        &.l#{$i} {
+          @include reset-offset;
+          width: $perc;
+        }
+        $i: $i + 1;
+      }
+
+      $i: 1;
+
+      @while $i <= $NUM_COLS {
+        $perc: unquote((100 / ($NUM_COLS / $i)) + '%');
+        @include grid-classes('l', $i, $perc);
+        $i: $i + 1;
+      }
+    }
+
+    @include mq($from:wide) {
+      $i: 1;
+
+      @while $i <= $NUM_COLS {
+        $perc: unquote((100 / ($NUM_COLS / $i)) + '%');
+
+        &.xl#{$i} {
+          @include reset-offset;
+          width: $perc;
+        }
+        $i: $i + 1;
+      }
+
+      $i: 1;
+
+      @while $i <= $NUM_COLS {
+        $perc: unquote((100 / ($NUM_COLS / $i)) + '%');
+        @include grid-classes('xl', $i, $perc);
+        $i: $i + 1;
+      }
+    }
+  }
+}

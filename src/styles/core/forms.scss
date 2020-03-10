@@ -5,7 +5,7 @@ form {
 a,
 area,
 button,
-[role='button'],
+[role=button],
 input,
 label,
 select,
@@ -17,20 +17,19 @@ textarea {
 input,
 textarea,
 select {
+  border: 1px solid $COLOR_BORDER_LIGHT;
+  border-radius: 0;
   font-size: 1.6rem;
   max-width: 100%;
-  border: 1px solid $color-border;
-  border-radius: 0;
 
   &[disabled] {
-    border-color: $color-disabled-border;
-    background-color: $color-disabled;
+    border-color: $COLOR_BORDER_LIGHT;
     cursor: default;
   }
 }
 
 button,
-input[type='submit'],
+input[type=submit],
 label[for] {
   cursor: pointer;
 }
@@ -45,12 +44,12 @@ select::-ms-expand {
 
 // Force option color (affects IE only)
 option {
-  background-color: $color-body;
-  color: $color-body-text;
+  background-color: $COLOR_BACKGROUND_WHITE;
+  color: $COLOR_TEXT_PRIMARY;
 }
 
 .input-error {
-  border-color: $color-error;
-  background-color: $color-error-bg;
-  color: $color-body-text;
+  background-color: $COLOR_SUPPORT_ERROR;
+  border-color: $COLOR_SUPPORT_ERROR;
+  color: $COLOR_TEXT_PRIMARY;
 }

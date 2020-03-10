@@ -314,13 +314,66 @@
   resolved "https://registry.yarnpkg.com/@shopify/slate-tag-webpack-plugin/-/slate-tag-webpack-plugin-1.0.0-beta.14.tgz#e26d0423af43c080b65e24b66bd76dc606a06b23"
   integrity sha512-suY+8eaxI++0w6WE0j/6LN30+LmwXIlQtBiVpk99sTeZ/f8CCc0N8zRNDcp7p9Dq9kMOTdhBpAQ1pQemIoNwIw==
 
-"@shopify/slate-tools@1.0.0-beta.19":
+"@shopify/slate-translations@1.0.0-beta.19":
   version "1.0.0-beta.19"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-tools/-/slate-tools-1.0.0-beta.19.tgz#7987608e7e3867f1e08a9724928dbe2ac465aa87"
-  integrity sha512-sLnxu5vzkX3zVKUbo6N5JDA06d7a86uYi8FE8lnvjcWdt+xdmy6a136HqHYe+RRL6MfFWmxKy44ciDjoljU5GQ==
+  resolved "https://registry.yarnpkg.com/@shopify/slate-translations/-/slate-translations-1.0.0-beta.19.tgz#1e528e3808aae1cf87f240a7ce2b45cdd0bdd5e0"
+  integrity sha512-vUR82KUi8EO4CUy1IjzN1nISOfW+gtt4V0VwoLtxcOtoq+ZDmt7fOJy1RfVYkUN56hp4E9H6baNx4NWz8dK77Q==
+  dependencies:
+    fs-extra "^7.0.1"
+    lodash "^4.17.11"
+    path "^0.12.7"
+
+"@shopify/theme-a11y@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-a11y/-/theme-a11y-3.0.0.tgz#4e3361c6c011cb8ce825d4ad164e5e066f73e6d3"
+  integrity sha512-ncqgPLut5GCuVCXu17lXogglz7n6EBg6L7oa2MTF2IcVsHq/HL+Krdnr25EdOPxDQjwPRyEwyKJCzSs5WceVjA==
+
+"@shopify/theme-cart@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-cart/-/theme-cart-3.0.0.tgz#04c576ce560ca9215911691a6ba8306c6aa3a329"
+  integrity sha512-QsjdEpOJU2ebngqCNqBa1EIy+zDpoBUEs+x70GEBlOLqOJVBs7+9V3TfSQyqSpuA4VqeiochL5Tj1ULx0LLZsQ==
+
+"@shopify/theme-currency@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-currency/-/theme-currency-3.0.0.tgz#6f8c8fae41006cb32cbf312fcf38cf46fb8dfe75"
+  integrity sha512-fRsG/KFo7ktubi0Hp2DPG5+cEL/Ew1rQb20yqKdQ01+7xmlJh+k4udNSIu8VQmSsTGyznN2EcyJAYy0Sxbbncg==
+
+"@shopify/theme-images@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-images/-/theme-images-3.0.0.tgz#e3bdcdd4d1b947df519e645e4489e1dd58d27cfc"
+  integrity sha512-NJnfq+ByCTWyJWMbeNOOIYMlrUKn5NwP8EnqOvEtnteEvtbUMMc4JSWq3Gt4CnaqXJvGy/FbLTHmLs9ahYzVZw==
+
+"@shopify/theme-lint@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-lint/-/theme-lint-2.0.0.tgz#faf49e09322ea72d8c3615e0e649ecf928f6263b"
+  integrity sha512-qhqU+RP4lQHQvFt6idZPsAdTgZyGGNBW7jdTxMKCOh+PBbxeTg44h2lanjK5XNVkpC75/Uw77FfTdJl1eqGJWA==
+  dependencies:
+    chalk "^1.1.3"
+    commander "^2.9.0"
+    glob "^7.0.6"
+    htmllint "^0.6.0"
+    lodash "^4.15.0"
+
+"@shopify/theme-sections@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@shopify/theme-sections/-/theme-sections-3.0.0.tgz#f9267f8a9f3985db7c0041dc0b135bf0f2fb168e"
+  integrity sha512-D6oBN0IiHwkvoEax2KbWtHbh3cPERrPs8JG+Qe+46NycGPEsuN5EcDYs6KHN1fSRa91s6dPfky6ullf3IS+ssw==
+
+"@shopify/themekit@0.6.12":
+  version "0.6.12"
+  resolved "https://registry.yarnpkg.com/@shopify/themekit/-/themekit-0.6.12.tgz#7cf86175b3b62ef7f405f068fd6f7c0cc8fd30bc"
+  integrity sha512-8yzAoXACUvAJEZU7vpcIGZcMayHcvwMqEc2XKKSSqZN7HHD1VMbogepMb/8h6jZ0xFUHH0IQSpT0sKZfAKDMrw==
+  dependencies:
+    bin-wrapper "3.0.2"
+    minimist "1.2.0"
+    simple-spinner "0.0.5"
+
+"@we-make-websites/slate-tools@1.0.0-beta.28":
+  version "1.0.0-beta.28"
+  resolved "https://registry.yarnpkg.com/@we-make-websites/slate-tools/-/slate-tools-1.0.0-beta.28.tgz#7525b25db391e86a6d6e025cf68544f61874a7c1"
+  integrity sha512-aE3jAhJS26AcK5BIUB3HWyInCc4UutIraAMQEORzOFv+jQzx157xIDcvJQvBXXD+4maG4tE1wBqkKtQVJzDS9A==
   dependencies:
     "@shopify/html-webpack-liquid-asset-tags-plugin" "1.0.0-beta.11"
-    "@shopify/slate-analytics" "1.0.0-beta.16"
     "@shopify/slate-config" "1.0.0-beta.14"
     "@shopify/slate-cssvar-loader" "1.0.0-beta.16"
     "@shopify/slate-env" "1.0.0-beta.16"
@@ -389,60 +442,6 @@
     write-file-webpack-plugin "4.4.0"
     yamljs "0.2.10"
     yargs "^11.0.0"
-
-"@shopify/slate-translations@1.0.0-beta.19":
-  version "1.0.0-beta.19"
-  resolved "https://registry.yarnpkg.com/@shopify/slate-translations/-/slate-translations-1.0.0-beta.19.tgz#1e528e3808aae1cf87f240a7ce2b45cdd0bdd5e0"
-  integrity sha512-vUR82KUi8EO4CUy1IjzN1nISOfW+gtt4V0VwoLtxcOtoq+ZDmt7fOJy1RfVYkUN56hp4E9H6baNx4NWz8dK77Q==
-  dependencies:
-    fs-extra "^7.0.1"
-    lodash "^4.17.11"
-    path "^0.12.7"
-
-"@shopify/theme-a11y@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-a11y/-/theme-a11y-3.0.0.tgz#4e3361c6c011cb8ce825d4ad164e5e066f73e6d3"
-  integrity sha512-ncqgPLut5GCuVCXu17lXogglz7n6EBg6L7oa2MTF2IcVsHq/HL+Krdnr25EdOPxDQjwPRyEwyKJCzSs5WceVjA==
-
-"@shopify/theme-cart@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-cart/-/theme-cart-3.0.0.tgz#04c576ce560ca9215911691a6ba8306c6aa3a329"
-  integrity sha512-QsjdEpOJU2ebngqCNqBa1EIy+zDpoBUEs+x70GEBlOLqOJVBs7+9V3TfSQyqSpuA4VqeiochL5Tj1ULx0LLZsQ==
-
-"@shopify/theme-currency@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-currency/-/theme-currency-3.0.0.tgz#6f8c8fae41006cb32cbf312fcf38cf46fb8dfe75"
-  integrity sha512-fRsG/KFo7ktubi0Hp2DPG5+cEL/Ew1rQb20yqKdQ01+7xmlJh+k4udNSIu8VQmSsTGyznN2EcyJAYy0Sxbbncg==
-
-"@shopify/theme-images@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-images/-/theme-images-3.0.0.tgz#e3bdcdd4d1b947df519e645e4489e1dd58d27cfc"
-  integrity sha512-NJnfq+ByCTWyJWMbeNOOIYMlrUKn5NwP8EnqOvEtnteEvtbUMMc4JSWq3Gt4CnaqXJvGy/FbLTHmLs9ahYzVZw==
-
-"@shopify/theme-lint@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-lint/-/theme-lint-2.0.0.tgz#faf49e09322ea72d8c3615e0e649ecf928f6263b"
-  integrity sha512-qhqU+RP4lQHQvFt6idZPsAdTgZyGGNBW7jdTxMKCOh+PBbxeTg44h2lanjK5XNVkpC75/Uw77FfTdJl1eqGJWA==
-  dependencies:
-    chalk "^1.1.3"
-    commander "^2.9.0"
-    glob "^7.0.6"
-    htmllint "^0.6.0"
-    lodash "^4.15.0"
-
-"@shopify/theme-sections@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@shopify/theme-sections/-/theme-sections-3.0.0.tgz#f9267f8a9f3985db7c0041dc0b135bf0f2fb168e"
-  integrity sha512-D6oBN0IiHwkvoEax2KbWtHbh3cPERrPs8JG+Qe+46NycGPEsuN5EcDYs6KHN1fSRa91s6dPfky6ullf3IS+ssw==
-
-"@shopify/themekit@0.6.12":
-  version "0.6.12"
-  resolved "https://registry.yarnpkg.com/@shopify/themekit/-/themekit-0.6.12.tgz#7cf86175b3b62ef7f405f068fd6f7c0cc8fd30bc"
-  integrity sha512-8yzAoXACUvAJEZU7vpcIGZcMayHcvwMqEc2XKKSSqZN7HHD1VMbogepMb/8h6jZ0xFUHH0IQSpT0sKZfAKDMrw==
-  dependencies:
-    bin-wrapper "3.0.2"
-    minimist "1.2.0"
-    simple-spinner "0.0.5"
 
 "@we-make-websites/stylelint-config@^1.0.1":
   version "1.0.2"
@@ -10380,6 +10379,11 @@ sass-loader@6.0.7:
     lodash.tail "^4.1.1"
     neo-async "^2.5.0"
     pify "^3.0.0"
+
+sass-mq@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/sass-mq/-/sass-mq-5.0.1.tgz#42c711e657d884ff6a1bb4d405dfb6f08a7dc622"
+  integrity sha512-ugSVZO5fzasSFrGfKCtY02spnkOOfo9U9sXuzCuSXoCl1CgcoqdJRdNmigZkhvRVph1GKM6o0pgI00Jjc445CA==
 
 sax@^1.2.4, sax@~1.2.1, sax@~1.2.4:
   version "1.2.4"

@@ -1,0 +1,27 @@
+/**
+ * Component: Product card
+ * -----------------------------------------------------------------------------
+ * Base styling for individual product card items which are usually displayed in groups.
+ *
+ */
+.product-card {
+  $parent: &;
+  color: $COLOR_TEXT_PRIMARY;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+
+  &__add-to-cart {
+    background-color: $COLOR_SUPPORT_ERROR;
+    color: $COLOR_TEXT_INVERSE;
+    padding: $SPACING_S $SPACING_XL;
+    text-decoration: none;
+  }
+
+  @include mq($from: small) {
+    &__add-to-cart {
+      background-color: $COLOR_PRIMARY;
+    }
+  }
+}

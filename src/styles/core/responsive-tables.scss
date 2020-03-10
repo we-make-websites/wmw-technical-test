@@ -1,4 +1,4 @@
-@include media-query($small) {
+@include mq($from: small) {
   .responsive-table {
     width: 100%;
 
@@ -13,8 +13,8 @@
     // IE9 table layout fixes
     tr,
     td {
-      float: left;
       clear: both;
+      float: left;
       width: 100%;
     }
 
@@ -22,7 +22,7 @@
     td {
       display: block;
       margin: 0;
-      padding: $grid-gutter / 2;
+      padding: $GUTTER_WIDTH / 2;
       text-align: right;
     }
 
@@ -37,18 +37,18 @@
   // Add a keyline between rows
   .responsive-table-row + .responsive-table-row,
   tfoot > .responsive-table-row:first-child {
-    position: relative;
     margin-top: 10px;
-    padding-top: $grid-gutter / 2;
+    padding-top: $GUTTER_WIDTH / 2;
+    position: relative;
 
     &::after {
+      border-bottom: 1px solid $COLOR_BORDER_LIGHT;
       content: '';
-      position: absolute;
-      top: 0;
-      right: $grid-gutter / 2;
-      left: $grid-gutter / 2;
       display: block;
-      border-bottom: 1px solid $color-border;
+      left: $GUTTER_WIDTH / 2;
+      position: absolute;
+      right: $GUTTER_WIDTH / 2;
+      top: 0;
     }
   }
 }
