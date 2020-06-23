@@ -31,7 +31,7 @@
     "@shopify/theme-sections": "3.0.0",
     "sass-mq": "^5.0.0",
     "jquery": "^3.5.0",
-    "lodash-es": "^4.17.4",
+    "lodash-es": "^4.17.14",
     "normalize.css": "^7.0.0"
   },
   "scripts": {
